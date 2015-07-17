@@ -1,7 +1,18 @@
+<div>
+    <h4>Changer de classe&nbsp;:&nbsp;
+        <select class="span2"
+                ng-model="$parent.classe"
+                ng-options="c.label for c in listeClasses"
+                ng-change="calculBonusNiveaux()">
+        </select>
+</div>
+
+<hr/>
+
 <h1 class="page-header">Talents - {{classe.label}}</h1>
 <div>
     <ul>
-        <li ng-repeat="t in listeTalents | filter:isDisponible | orderBy:lvlMini">
+        <li ng-repeat="t in listeTalents| filter:isDisponible | orderBy:lvlMini">
             <p>
                 <span class="badge">niv. {{lvlMini(t)}}</span> <b>{{t.nom}}</b><br/>
                 <span ng-show="t.prerequis">

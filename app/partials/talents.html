@@ -1,0 +1,20 @@
+<h1 class="page-header">Talents - {{classe.label}}</h1>
+<div>
+    <ul>
+        <li ng-repeat="t in listeTalents | filter:isDisponible | orderBy:lvlMini">
+            <p>
+                <span class="badge">niv. {{lvlMini(t)}}</span> <b>{{t.nom}}</b><br/>
+                <span ng-show="t.prerequis">
+                    <u>Prérequis</u> : {{t.prerequis}}<br/>
+                </span>
+        <u>Description</u> : {{t.description}}
+        <span ng-show="t.rang_superieur">
+            <br/><u>Rang supérieur</u> : {{t.rang_superieur}}
+            <span ng-show="t.prerequis_rang_superieur">
+                <br/><u>Prérequis pour le rang supérieur</u> : {{t.prerequis_rang_superieur}}
+            </span>
+        </span>
+        </p>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,26 @@
+<h1>Niveaux</h1>
+<div ng-repeat="lvl in lvls">
+    <h2>{{lvl.nom}}</h2>
+    <p>Nombre de degrés restants à distribuer : {{lvl.nbDegresRestants}}</p>
+
+    <table width="100%">
+        <tr>
+            <td>
+                <p>
+                    <span class="badge badge-success"
+                          ng-repeat="cpt in lvl.cpt | orderBy:sortOrdre"
+                          ng-click="removeDegre(cpt, lvl)">
+                        {{cpt.nom}}
+                    </span>
+                </p>
+                <p>
+                    <span class="badge"
+                          ng-repeat="cpt in competences | filter: pasEncoreSelectionnee(cpt, lvl) | orderBy:sortOrdre"
+                          ng-click="addDegre(cpt, lvl)">
+                        {{cpt.nom}}
+                    </span>
+                </p>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,2219 @@
+[
+    {
+        "nom": "Adresse magique",
+        "classes": {
+            "magicien": "15",
+            "sorcier": "15"
+        },
+        "prerequis": "Cœur de magicien, Vigueur +5, Volonté +5",
+        "description": "L'ensorceleur a approfondi ses recherches dans l'étude de l'essence, parvenant à la manipuler de manière experte, lui permettant de rendre ses sortilèges offensifs  plus dangereux : il relance tous les jets de dé à dix faces avec les résultats de 1 et 2.",
+        "rang_superieur": "La foudre et le feu n'ont plus de secret pour le conjureur : il relance aussi les jets de dé à dix faces ayant pour résultat 3 et 4."
+    }, {
+        "nom": "Agilité des roublards",
+        "classes": {
+            "assassin": "10",
+            "cambrioleur": "10",
+            "eclaireur": "10"
+        },
+        "prerequis": "Rapidité +4, Agilité 90",
+        "description": "Equipé de lames courtes (dague, poignard, épée courte, rapière, cimeterre), le roublard mise avant tout sur sa Rapidité et sa vitesse d'exécution pour porter ses attaques, utilisant son Agilité en lieu et place de sa Force."
+    }, {
+        "nom": "Arcanes du savoir",
+        "classes": {
+            "maitre_du_savoir": "15"
+        },
+        "prerequis": "Sagesse +4, Vigueur +4, Volonté +4",
+        "description": "A forces de longues heures passées à étudier grimoires et parchemins, le maître du savoir a appréhendé la compréhension des sortilèges mineurs : il peut apprendre des sorts non offensifs de SD 5-10 n'appartenant pas aux domaines de la Nature et de l'Air (un sort tous les trois niveaux à partir de la prise du talent)."
+    }, {
+        "nom": "Armure du héros",
+        "classes": {
+            "animiste": "30",
+            "artisan": "30",
+            "assassin": "30",
+            "cambrioleur": "30",
+            "barbare": "30",
+            "eclaireur": "30",
+            "guerrier": "30",
+            "larron": "30",
+            "magicien": "30",
+            "menestrel": "30",
+            "maitre_du_savoir": "30",
+            "moine": "30",
+            "noble": "30",
+            "pretre_militaire": "30",
+            "rodeur": "30",
+            "soigneur": "30",
+            "sorcier": "30"
+        },
+        "prerequis": "Chance du héros",
+        "description": "Le personnage jouit de la faveur des puissances de la Terre du Milieu, bonnes ou mauvaises, et se retrouve immunisé aux coups critiques de sévérité A."
+    }, {
+        "nom": "Artisan légendaire",
+        "classes": {
+            "artisan": "21"
+        },
+        "prerequis": "Maître-artisan",
+        "description": "Dans son domaine, nul ne peut surpasser l'artisan en ce qui concerne la création d'objets de maître ; le personnage diminue de vingt cinq le seuil de difficulté pour réussir un chef d’œuvre dans une des spécialités suivantes : épées et dagues, haches, masses, lances, mailles, plaques, bouclier."
+    }, {
+        "nom": "Attaques précises",
+        "classes": {
+            "assassin": "18",
+            "cambrioleur": "21",
+            "guerrier": "10",
+            "larron": "18"
+        },
+        "prerequis": "15 degrés en arme de mêlée, Agilité 90",
+        "description": "Le détenteur d'un tel talent est capable de porter des attaques ciblées pour les rendre plus dévastatrices ; contre un malus de 25 à son jet pour toucher, son attaque ne peut être ratée (ni maladresse ni échec) et il a alors un bonus de +/-5 à ses critiques ainsi qu'un bonus de +2 à son initiative."
+    }, {
+        "nom": "Augmentation",
+        "classes": {
+            "animiste": "05",
+            "artisan": "05",
+            "assassin": "05",
+            "cambrioleur": "05",
+            "barbare": "05",
+            "eclaireur": "05",
+            "guerrier": "05",
+            "larron": "05",
+            "magicien": "05",
+            "menestrel": "05",
+            "maitre_du_savoir": "05",
+            "moine": "05",
+            "noble": "05",
+            "pretre_militaire": "05",
+            "rodeur": "05",
+            "soigneur": "05",
+            "sorcier": "05"
+        },
+        "description": "Spécialisé dans un domaine, le héros a amélioré une de ses compétences de manière incroyable, obtenant un bonus de +25 et ne pouvant plus réaliser de maladresse (hormis sur 01), hors compétences de combat et développement corporel.",
+        "rang_superieur": "Le héros a gagné une maîtrise incommensurable dans sa compétence, avec un bonus de +40 et des succès critiques sur 94-00.",
+        "prerequis_rang_superieur": "niv. 15"
+    }, {
+        "nom": "Bénédiction de Nienna",
+        "classes": {
+            "soigneur": "21"
+        },
+        "prerequis": "Sortilège : Main Guérisseuse, Médecine 100, Sagesse +5",
+        "description": "Le guérisseur a reçu le don des puissances Estë et Nienna et peut accomplir des soins miraculeux, soignant les commotions de son patient de son bonus total de constitution et soulageant la douleur ce qui réduit les pénalités d'un montant égal à son bonus de Présence  ; le soigneur perd à l'issue vingt points de commotion et deux niveaux de fatigue."
+    }, {
+        "nom": "Bénédiction féerique",
+        "classes": {
+            "eclaireur": "30"
+        },
+        "prerequis": "Souplesse du serpent ou dextérité défensive ou dur à cuire, Sagesse +5",
+        "description": "Un être puissant, une des puissances mineures résidant encore dans la Terre du Milieu, a imprégné le personnage d'un fragment de son essence vitale, le préservant de la plupart des blessures graves ; tout critique infligé à l'éclaireur avec une arme normale est minoré de vingt, ceux avec une arme magique sont diminués de dix."
+    }, {
+        "nom": "Berserker",
+        "classes": {
+            "barbare": 21
+        },
+        "prerequis": "Vigueur +5, Force ou Constitution 98",
+        "description": "Confronté à un ennemi séculaire, à ses némésis ou en proie à des émotions comme la colère ou la peur, le barbare laisse éclater sa rage, inondant son corps d'une fureur guerrière sans pareille, pendant un nombre de rounds égal à son niveau ; il devient insensible à la douleur, gagne un bonus de force de +30, double les dégâts infligés en contrepartie de la perte de son bonus défensif d'agilité et de ne plus pouvoir parer ou se servir d'un bouclier. Pour déclencher sa rage, il doit réussir un test de Vigueur SD12 ou recevoir une blessure critique tandis qu'un test de Volonté SD12 est nécessaire pour éteindre sa colère, frappant les siens en cas d'échec (SD8 pour des amis proches) ; à l'issue, il perd trois niveaux de fatigue à cause de l'énergie dépensée."
+    }, {
+        "nom": "Bonne fortune",
+        "classes": {
+            "animiste": "30",
+            "artisan": "30",
+            "assassin": "30",
+            "cambrioleur": "30",
+            "barbare": "30",
+            "eclaireur": "30",
+            "guerrier": "30",
+            "larron": "30",
+            "magicien": "30",
+            "menestrel": "30",
+            "maitre_du_savoir": "30",
+            "moine": "30",
+            "noble": "30",
+            "pretre_militaire": "30",
+            "rodeur": "30",
+            "soigneur": "30",
+            "sorcier": "30"
+        },
+        "prerequis": "Chance du héros",
+        "description": "La destinée du héros est née sous des auspices radieux, celui-ci pouvant décider d'annuler un critique porté à son encontre, une fois par session de jeu ou bataille (plus longue durée des deux)."
+    }, {
+        "nom": "Capitaine",
+        "classes": {
+            "noble": "30"
+        },
+        "prerequis": "Volonté +6, Homme noble, Protecteur, Commandement 150",
+        "description": "Le personnage est le symbole du dévouement, l'illustre représentant de la plus haute dignité, toujours fidèle à ses serments et son devoir ; il ne commet plus de maladresse en combat, obtient un bonus de +5 à tous ses tests de Volonté , les bonus de son talent Protecteur sont doublés et s'il a Imposition des Mains, la réduction de pénalité de douleur est équivalente à son bonus de Présence"
+    }, {
+        "nom": "Champion",
+        "classes": {
+            "barbare": "15",
+            "guerrier": "15",
+            "noble": "15",
+            "rodeur": "18"
+        },
+        "prerequis": "15 degrés en arme de mêlée, Force 90",
+        "description": "Le champion est un héros de son peuple, luttant plus efficacement contre un type particulier d'ennemis (Orques d'Angmar, Sagaths, Haruzes), ce qui lui permet les avantages suivants : +10 BO, +/- aux critiques de mêlée, +1 initiative.",
+        "rang_superieur": "Le champion peut choisir un nouveau type d'ennemis, élargir le groupe d'ennemis précédent (tous les orques, orientaux de Rhûn, suderons du Proche et Lointain Harad), ou bien être encore plus redoutable contre ses ennemis actuels (+20 BO, +/-10 aux critiques de mêlée, +2 initiative)."
+    }, {
+        "nom": "Champ d'expertise",
+        "classes": {
+            "magicien": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Cœur de magicien, Sagesse +6",
+        "description": "L'arcaniste a approfondi de manière très forte l'un de ses sortilèges, obtenant un bonus de +3 pour tenter de le lancer efficacement."
+    }, {
+        "nom": "Chance des Scélérats",
+        "classes": {
+            "assassin": "15",
+            "cambrioleur": "15",
+            "eclaireur": "21",
+            "voleur": "21"
+        },
+        "prerequis": "Deux autres talents, Volonté +5",
+        "description": "Le roublard est né sous le signe de la bonne fortune, la chance l'accompagne tout au long de sa vie ; pour toutes ses tests de compétence, il obtient des succès critiques sur 91-00."
+    }, {
+        "nom": "Chance du héros",
+        "classes": {
+            "animiste": "10",
+            "artisan": "10",
+            "assassin": "10",
+            "cambrioleur": "10",
+            "barbare": "10",
+            "eclaireur": "10",
+            "guerrier": "10",
+            "larron": "10",
+            "magicien": "10",
+            "menestrel": "10",
+            "maitre_du_savoir": "10",
+            "moine": "10",
+            "noble": "10",
+            "pretre_militaire": "10",
+            "rodeur": "10",
+            "soigneur": "10",
+            "sorcier": "10"
+        },
+        "description": "Le destin influe sur la vie du héros, celui-ci ayant la possibilité de relancer un jet de dé (test de compétence ou de réaction), une fois par bataille ou session de jeu (plus longue durée des deux), ne conservant que le meilleur des deux jets ; de plus, le héros se voit gratifier d'un point de courage supplémentaire."
+    }, {
+        "nom": "Chant de Taliesin",
+        "classes": {
+            "menestrel": "21"
+        },
+        "prerequis": "Héritage des bardes, Volonté +5, Chant 150",
+        "description": "Assimilant l'héritage de Taliesin, un légendaire barde du Second Age, le héros est capable de blesser terriblement les serviteurs de l'Ombre en utilisant ses chants tout en maniant son épée (il peut porter trois attaques en utilisant sa compétence chant en lieu et place de son bonus habituel puis perd deux niveaux de fatigue) ; ces attaques ne peuvent atteindre que les créatures monstrueuses et corrompues (orques, trolls et autres)."
+    }, {
+        "nom": "Chef d'oeuvre",
+        "classes": {
+            "artisan": "15"
+        },
+        "prerequis": "Compétence d'Artisanat 120",
+        "description": "Le personnage est talentueux, sachant réaliser des ouvrages de maître, diminuant de vingt-cinq le seuil de difficulté pour créer un chef d’œuvre."
+    }, {
+        "nom": "Cœur de magicien",
+        "classes": {
+            "magicien": "18",
+            "sorcier": "18"
+        },
+        "description": "le magicien ou le sorcier (variante Cœur de Sorcier) est un maître parmi les siens, ayant pleinement réussi à comprendre l'essence de la Terre du Milieu, lui conférant un bonus de +2 en Vigueur pour ses sortilèges."
+    }, {
+        "nom": "Cœur Léger",
+        "classes": {
+            "menestrel": "10"
+        },
+        "prerequis": "Vigueur +3, Chant 100",
+        "description": "Les hymnes du barde raffermissent les cœurs en même temps qu'ils apportent force et Vigueur , que ce soit autour d'un feu de campement ou d'un champ de bataille ; ses compagnons présents dans un rayon de sa Prestance en mètres récupèrent deux niveau de fatigue, tandis que le lanceur en perd un."
+    }, {
+        "nom": "Combat déloyal",
+        "classes": {
+            "assassin": "15",
+            "eclaireur": "18",
+            "larron": "15"
+        },
+        "prerequis": "15 degrés en arme de mêlée, Agilité 90, Premiers Soins 25",
+        "description": "Le héros connaît les points faibles de ses opposants, leur causant souffrances et saignements aggravés (double les hémorragies et augmente de moitié les pénalités)."
+    }, {
+        "nom": "Corps de pierre",
+        "classes": {
+            "barbare": "30"
+        },
+        "prerequis": "Réduction des dégâts, Vigueur +6",
+        "description": "Aucun coup sinon les plus terribles ne peut blesser le héros, ce dernier voyant tous les critiques portés contre lui réduits d'un degré, les critiques A étant ignorés."
+    }, {
+        "nom": "Coups puissants",
+        "classes": {
+            "animiste": "21",
+            "artisan": "21",
+            "assassin": "21",
+            "cambrioleur": "21",
+            "barbare": "21",
+            "eclaireur": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "magicien": "21",
+            "menestrel": "21",
+            "maitre_du_savoir": "21",
+            "moine": "21",
+            "noble": "21",
+            "pretre_militaire": "21",
+            "rodeur": "21",
+            "soigneur": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "20 degrés en arme de mêlée, Force 95, Babare lvl 10, Guerrier lvl 15",
+        "description": "Le bras du héros porte des attaques dévastatrices au corps à corps, infligeant des dommages supplémentaires à la hauteur de la moitié des dégâts normaux."
+    }, {
+        "nom": "Cruauté machiavélique",
+        "classes": {
+            "assassin": "10",
+            "barbare": "10",
+            "guerrier": "10",
+            "larron": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Volonté +3, Intimidation 75",
+        "description": "L'esprit vicieux du personnage est sans limite, inventant sans cesse de nouvelles méthodes pour tourmenter ses ennemis, lui octroyant un bonus de +30 en Intimidation ainsi que +1 en Volonté."
+    }, {
+        "nom": "Déférence",
+        "classes": {
+            "magicien": "10",
+            "maitre_du_savoir": "10",
+            "menestrel": "10",
+            "noble": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Présence 90, Eloquence 75",
+        "description": "Le personnage illustre à la perfection les bonnes manières et les usages dans les milieux aristocratiques : il gagne +15 en Diplomatie, Eloquence, Etiquette et Séduction."
+    }, {
+        "nom": "Dévotion",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21",
+            "magicien": "21",
+            "noble": "15",
+            "rodeur": "21"
+        },
+        "prerequis": "Noblesse, Homme noble, Volonté +5, Présence 95, Commandement 100",
+        "description": "Le héros est un symbole pour les peuples dont il a la charge, ses hommes mourront sans peur sous son commandement si la cause est juste ; +1 en Volonté et les armées du héros ne connaissent jamais la déroute et la panique."
+    }, {
+        "nom": "Dur à cuire",
+        "classes": {
+            "barbare": "05",
+            "eclaireur": "05",
+            "guerrier": "05",
+            "larron": "05",
+            "moine": "05",
+            "noble": "05",
+            "rodeur": "05"
+        },
+        "prerequis": "Vigueur +4, Constitution 95",
+        "description": "Le héros possède une résistance à la douleur extraordinaire, ignorant les blessures qui auraient raison de la plupart des autres combattants ; il réduit les pénalités liées à la douleur de vingt."
+    }, {
+        "nom": "Dextérité défensive",
+        "classes": {
+            "animiste": "10",
+            "artisan": "10",
+            "assassin": "10",
+            "cambrioleur": "10",
+            "barbare": "10",
+            "eclaireur": "10",
+            "guerrier": "10",
+            "larron": "10",
+            "magicien": "10",
+            "menestrel": "10",
+            "maitre_du_savoir": "10",
+            "moine": "10",
+            "noble": "10",
+            "pretre_militaire": "10",
+            "rodeur": "10",
+            "soigneur": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Agilité 90",
+        "description": "Le personnage est très habile à esquiver les attaques ennemies, gagnant +10 à son bonus défensif contre un adversaire en combat individuel ainsi qu'un bonus de +2 à son initiative.",
+        "rang_superieur": "Les talents défensifs du personnage sont légendaires : il gagne +10 à son bonus défensif contre tous ses adversaires potentiels ou +20 contre un combattant solitaire, ainsi qu'un bonus de +4 à son initiative.",
+        "prerequis_rang_superieur": "Larron niv. 15, moine niv. 18, les autres niv. 21"
+    }, {
+        "nom": "Efficacité accrue",
+        "classes": {
+            "guerrier": "18",
+            "larron": "21",
+            "moine": "21",
+            "noble": "21"
+        },
+        "prerequis": "20 degrés en arme de mêlée, Agilité 90",
+        "description": "Le personnage est un virtuose du maniement des armes, ne ratant que très rarement son adversaire : tout coup porté en dehors de la gamme de maladresse est considéré comme réussi."
+    }, {
+        "nom": "Empathie animale",
+        "classes": {
+            "animiste": "15"
+        },
+        "prerequis": "Sagesse +5, Connaissance Faune 75",
+        "description": "L'animiste choisit un animal-totem et gagne certains bonus pendant un nombre de minutes égal à sa prestance avant de perdre deux niveaux de fatigue : ours (+20 Force, +2 Vigueur ), cerf (+20 Présence , +2 Volonté ), loup (+20 Agilité, +2 Rapidité ) et l'aigle (+20 Intuition, +2 Sagesse )."
+    }, {
+        "nom": "Enchantement",
+        "classes": {
+            "artisan": "30"
+        },
+        "prerequis": "Chef d’œuvre, Artisan légendaire",
+        "description": "L'artisan a atteint un tel niveau de maîtrise qu'il est désormais capable d'enchanter ses propres créations, les imbibant de pouvoir, insufflant une partie de son essence vitale à l'intérieur."
+    }, {
+        "nom": "Endurance accrue",
+        "classes": {
+            "barbare": "10",
+            "rodeur": "10"
+        },
+        "prerequis": "Constitution 90",
+        "description": "Le personnage est capable de se priver de sommeil pendant plusieurs jours d'affilée, jusqu'à un maximum déterminé par sa constitution (bonus de caractéristique divisé par cinq) ; il perd un niveau de fatigue au terme des deuxième et quatrième jours, puis un niveau par journée supplémentaire. Cependant, sans sommeil, le héros ne peut récupérer les niveaux de fatigue perdus suite à ses activités."
+    }, {
+        "nom": "Ennemi juré",
+        "classes": {
+            "rodeur": "10"
+        },
+        "description": "Le rôdeur, pour des raisons qui lui sont propres, a juré de traquer et d'éliminer ceux qu'ils considèrent comme ses plus farouches ennemis (orques, trolls, elfes, géants, dragons, suderons, orientaux, ouargues...) ; il gagne un bonus de +20 en Pistage, +/-10 à ses critiques de mêlée et +2 à l'initiative contre ses adversaires désignés."
+    }, {
+        "nom": "Enthousiasme",
+        "classes": {
+            "menestrel": "15"
+        },
+        "prerequis": "Vigueur +3, Chant 100",
+        "description": "Les âmes des compagnons du ménestrel vibrent à ses odes épiques, puisant dans la force de ces chants pour résister à la peur ou toute autre chose affectant l'esprit ; ses compagnons présents dans un rayon de sa prestance en mètres gagnent un bonus de +3 à leurs tests de Volonté."
+    }, {
+        "nom": "Entraînement intensif",
+        "classes": {
+            "animiste": "21",
+            "artisan": "21",
+            "assassin": "21",
+            "cambrioleur": "21",
+            "barbare": "21",
+            "eclaireur": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "magicien": "21",
+            "menestrel": "21",
+            "maitre_du_savoir": "21",
+            "moine": "21",
+            "noble": "21",
+            "pretre_militaire": "21",
+            "rodeur": "21",
+            "soigneur": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Une caractéristique physique avec un bonus maximum de +10",
+        "description": "Par de longues heures d'entraînement, d'épreuves physiques, le héros a su améliorer son potentiel physique, augmentant une de ses caractéristiques physiques au niveau supérieur en terme de bonus."
+    }, {
+        "nom": "Evasion",
+        "classes": {
+            "cambrioleur": "30"
+        },
+        "prerequis": "Rapidité +5, Agilité 95, Science de l'esquive",
+        "description": "Rapide comme le vent, le cambrioleur est capable d'éviter la plupart des attaques ennemies, obtenant +25 à son bonus défensif ainsi que +1 en Rapidité."
+    }, {
+        "nom": "Evitement",
+        "classes": {
+            "Assassin": "30"
+        },
+        "prerequis": "Souplesse du serpent, Virtuosité de l'assassin",
+        "description": "Le roublard esquive de manière exceptionnelle les attaques dont il est la cible et possède la faculté unique de pouvoir esquiver de manière extraordinaire l'attaque adverse ; il obtient +30 à son BD et la différence positive entre son niveau et celui de son opposant s'additionne à la gamme d'échec de l'attaque de son opposant."
+    }, {
+        "nom": "Expertise martiale",
+        "classes": {
+            "guerrier": "10"
+        },
+        "prerequis": "15 degrés en arme de mêlée",
+        "description": "Le combattant est un expert du maniement des armes et reçoit par conséquent un bonus de +2 à son initiative avec les armes de corps à corps et de +3 avec son arme de spécialisation."
+    }, {
+        "nom": "Flamboyance",
+        "classes": {
+            "animiste": "30",
+            "artisan": "30",
+            "assassin": "30",
+            "cambrioleur": "30",
+            "barbare": "30",
+            "eclaireur": "30",
+            "guerrier": "30",
+            "larron": "30",
+            "magicien": "30",
+            "menestrel": "30",
+            "maitre_du_savoir": "30",
+            "moine": "30",
+            "noble": "30",
+            "pretre_militaire": "30",
+            "rodeur": "30",
+            "soigneur": "30",
+            "sorcier": "30"
+        },
+        "prerequis": "Volonté ou Sagesse +6",
+        "description": "Au cours de sa vie et des épreuves, le héros est devenu charismatique et a délaissé les efforts physiques pour se consacrer à son sens des relations et sa présentation ; il augmente sa caractéristique Présence de deux rangs tandis qu'une de ses caractéristiques physique au choix perd un rang (pouvant se cumuler avec la perte due à l'âge)."
+    }, {
+        "nom": "Fracas des os",
+        "classes": {
+            "barbare": "10",
+            "guerrier": "10"
+        },
+        "prerequis": "10 degrés en arme de mêlée, Premiers Soins 25",
+        "description": "Le brave sait où porter ses attaques et en conséquent, chaque coup porté donnant lieu à un critique de contusion, déséquilibre ou impact ajoute un à trois rounds d'étourdissement supplémentaire en fonction de la sévérité du critique (A/C/E)."
+    }, {
+        "nom": "Fureur de la nature",
+        "classes": {
+            "animiste": "30"
+        },
+        "prerequis": "Sagesse +6, Survie Nature 150",
+        "description": "L'animiste ne fait plus qu'un avec les éléments naturels, appelant au pouvoir de l'un d'eux pour accomplir ses devoirs, pendant un nombre de tours égal à sa Prestance, perdant à l'issue deux niveaux de fatigue ; il obtient la puissance du Feu (coup critique de chaleur de même sévérité pour ses attaques au corps à corps), la guérison de l'Eau (talent Imposition des Mains sans la fatigue), la robustesse de la Terre (talent Corps de Pierre du barbare) ou l'immatérialité du Vent (talent Evasion du cambrioleur)."
+    }, {
+        "nom": "Guerrier-né",
+        "classes": {
+            "guerrier": "15"
+        },
+        "prerequis": "20 degrés en arme de mêlée",
+        "description": "Le combattant sait mieux que quiconque délivrer des attaques terribles avec son arme, pouvant frapper deux fois par round avec 60% de son bonus offensif pour chacun des coups portés (contre 40% en temps normal).",
+        "rang_superieur": "Rien ne résiste au champion, ses deux attaques étant réalisées avec 75% du bonus offensif chacune."
+    }, {
+        "nom": "Harmonie",
+        "classes": {
+            "magicien": "15",
+            "sorcier": "15"
+        },
+        "prerequis": "Cœur de magicien, Vigueur +5",
+        "description": "Nul utilisateur d'essence ne s'amuserait à privilégier sa protection au dépens de sa magie, à part le héros ; habitué à développer ses sortilèges en portant une armure, il restreint la difficulté au moment de lancer ses sorts en réduisant la pénalité de trois (pour rappel, celle-ci est égale au malus de Rapidité de chaque armure ajouté au malus du type d'armure [0/2/4/6/8 pour les différentes classes d'armure])."
+    }, {
+        "nom": "Héritage des bardes",
+        "classes": {
+            "menestrel": "18"
+        },
+        "prerequis": "Cœur léger ou enthousiasme, Chant 120",
+        "description": "Le héros a rejoint le cercle des plus grands bardes de l'Histoire de la Terre du Milieu, et est désormais capable de lancer certains sortilèges par le biais de ses chants : il a accès à Bravoure (SD12, +5 aux tests de Volonté contre la Peur), Cœur Ouvert (SD10), Mains Guérisseuses (SD10), Sommeil (SD10) et Voix de Persuasion( SD10)."
+    }, {
+        "nom": "Héroïsme",
+        "classes": {
+            "animiste": "10",
+            "artisan": "10",
+            "assassin": "10",
+            "cambrioleur": "10",
+            "barbare": "10",
+            "eclaireur": "10",
+            "guerrier": "10",
+            "larron": "10",
+            "magicien": "10",
+            "menestrel": "10",
+            "maitre_du_savoir": "10",
+            "moine": "10",
+            "noble": "10",
+            "pretre_militaire": "10",
+            "rodeur": "10",
+            "soigneur": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Volonté +4",
+        "description": "Véritable héros au sens noble du terme, le récipiendaire de ce don affronte avec courage et détermination, bravoure et abnégation, les défis qui lui sont proposés ; ses points de courage dépensés lorsqu'il tombe en dessous de la moitié de ses points de coup lui procurent un bonus de +50."
+    }, {
+        "nom": "Homme noble",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21",
+            "magicien": "15",
+            "noble": "10",
+            "rodeur": "21",
+            "sorcier": "18"
+        },
+        "prerequis": "Membre de la noblesse, Présence 90, Commandement 75",
+        "description": "Personnage d'acier aux convictions profondes, le héros possède un charisme prompt à enflammer le cœur de ses hommes et à dominer ses adversaires (+1 en Volonté et +30 en Commandement)."
+    }, {
+        "nom": "Homme sage et rusé",
+        "classes": {
+            "animiste": "21",
+            "artisan": "21",
+            "assassin": "21",
+            "cambrioleur": "21",
+            "barbare": "21",
+            "eclaireur": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "magicien": "10",
+            "menestrel": "15",
+            "maitre_du_savoir": "18",
+            "moine": "21",
+            "noble": "21",
+            "pretre_militaire": "21",
+            "rodeur": "21",
+            "soigneur": "21",
+            "sorcier": "21"
+        },
+        "description": "Les capacités mentales et psychologiques du héros sont impressionnantes, il gagne un bonus de +2 au choix entre Sagesse et Volonté.",
+        "rang_superieur": "Il peut prendre à nouveau ce talent pour choisir la deuxième réaction."
+    }, {
+        "nom": "Imposition des mains",
+        "classes": {
+            "noble": "18",
+            "rodeur": "18",
+            "soigneur": "10"
+        },
+        "prerequis": "Noblesse, Sagesse +4, Premiers Soins 80",
+        "description": "Le personnage est issu d'un noble et illustre lignage, où la piété et la compassion ont toujours été de rigueur ; ses mains sont guérisseuses, faisant regagner son niveau en points de coup à la cible et réduisant sa douleur (-10 aux pénalités) ; la durée est de deux minutes et il perd deux niveaux de fatigue à l'issue."
+    }, {
+        "nom": "Initiative",
+        "classes": {
+            "eclaireur": "15"
+        },
+        "prerequis": "Rapidité +4, Agilité 95",
+        "description": "L'instinct de survie du personnage lui permet de toujours anticiper les mouvements de son ennemi ; il gagne un bonus à son initiative de +8 en mêlée et obtient +20 à son bonus défensif contre les attaques à distance."
+    }, {
+        "nom": "Insensibilité à la magie",
+        "classes": {
+            "artisan": "21",
+            "assassin": "21",
+            "cambrioleur": "21",
+            "barbare": "21",
+            "eclaireur": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "menestrel": "21",
+            "maitre_du_savoir": "21",
+            "moine": "21",
+            "noble": "21",
+            "rodeur": "21",
+            "soigneur": "21"
+        },
+        "prerequis": "Résistance à la magie, Volonté +6",
+        "description": "De façon innée, le personnage détient une résistance hors du commun à l'essence de la Terre du Milieu ; par conséquent, il ne peut manipuler aucune sorte de sortilège mais résiste à quarante points supplémentaires de dégâts magiques."
+    }, {
+        "nom": "Instinct du Druide",
+        "classes": {
+            "animiste": "21"
+        },
+        "prerequis": "Empathie animale, Volonté +5, Connaissance Faune 100",
+        "description": "L'animiste est définitivement lié à un totem-animal et ne peut désormais plus en changer, et acquiert un de ses aspects : loup/férocité (+/5 aux critiques et combat déloyal), ours /force brute (coups puissants et réduction des dégâts), cerf/majesté (charismatique et insensible à la peur), aigle/acuité (sens de l'honneur et intuitif). La perte de fatigue à l'issue d'Empathie Animale est alors de trois rangs."
+    }, {
+        "nom": "Intellect",
+        "classes": {
+            "animiste": "30",
+            "artisan": "30",
+            "assassin": "30",
+            "cambrioleur": "30",
+            "barbare": "30",
+            "eclaireur": "30",
+            "guerrier": "30",
+            "larron": "30",
+            "magicien": "30",
+            "menestrel": "30",
+            "maitre_du_savoir": "30",
+            "moine": "30",
+            "noble": "30",
+            "pretre_militaire": "30",
+            "rodeur": "30",
+            "soigneur": "30",
+            "sorcier": "30"
+        },
+        "prerequis": "Volonté ou Sagesse +6",
+        "description": "Comme Flamboyance mais avec la caractéristique Intelligence"
+    }, {
+        "nom": "Intuitif",
+        "classes": {
+            "assassin": "10",
+            "cambrioleur": "10",
+            "eclaireur": "10",
+            "magicien": "10",
+            "maitre_du_savoir": "10",
+            "menestrel": "10",
+            "moine": "10",
+            "rodeur": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Sagesse +4",
+        "description": "L'esprit du personnage est parfaitement aiguisé, saisissant ce qui échappe à d'autres, lui permettant de déceler des mouvements furtifs ou des contre-vérités ; il gagne +20 en Perception et +10 en Interrogatoire."
+    }, {
+        "nom": "Longévité",
+        "classes": {
+            "sorcier": "18"
+        },
+        "prerequis": "Cœur de sorcier, Volonté +5, Vigueur +5",
+        "description": "Par la pratique d'horribles rituels (notamment des bains dans le sang de victimes fraîchement sacrifiées), le sorcier parvient à rallonger artificiellement sa vie du double de la longueur normale et de stopper la perte de caractéristiques physiques ; ce sortilège particulièrement odieux nécessite le sacrifice d'êtres humains tous les six mois pendant l'âge mûr, tous les mois pour un sorcier d'âge avancé, et toutes les semaines pendant l'âge vénérable."
+    }, {
+        "nom": "Lueur d'espoir",
+        "classes": {
+            "animiste": "18",
+            "soigneur": "15"
+        },
+        "prerequis": "Sort Main guérisseuse, Sagesse +4, Médecine 75",
+        "description": "Le héros possède une affinité naturelle dans les arts mystiques de la guérison, pouvant guérir sa cible de 3D6+7 points de coup et lui faisant regagner un niveau de fatigue, tandis que lui-même perd un niveau de fatigue (ce don nécessite quinze minutes, soit moitié moins que le sort Main Guérisseuse)."
+    }, {
+        "nom": "Maître artisan",
+        "classes": {
+            "artisan": "21"
+        },
+        "prerequis": "Augmentation (rang supérieur), Artisanat 150",
+        "description": "Le héros fait partie des plus grands artisans que la Terre du Milieu ait produite, gagnant un bonus de +25 dans sa compétence d'artisanat et réalisant des critiques sur 91-00."
+    }, {
+        "nom": "Maître d'armes",
+        "classes": {
+            "guerrier": "18"
+        },
+        "prerequis": "20 degrés en arme, Spécialisation martiale",
+        "description": "Spécialiste de son arme, le héros est une fine lame parmi les siens, choisissant d'augmenter son initiative d'un bonus de +4 ou de réduire la gamme de maladresse à 01 pour les armes à une main, 01-02 pour les armes à deux mains et 01-03 pour les fléaux et étoiles du matin (aucune maladresse si associé à Contrôle des Armes)."
+    }, {
+        "nom": "Maître du savoir",
+        "classes": {
+            "magicien": "10",
+            "maitre_du_savoir": "10",
+            "menestrel": "10",
+            "moine": "10",
+            "noble": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Sagesse +4",
+        "description": "Peu de personnes peuvent affirmer égaler les connaissances détenues par le héros, +10 à toutes les compétences académiques de savoir."
+    }, {
+        "nom": "Maître Tacticien",
+        "classes": {
+            "guerrier": "18",
+            "magicien": "21",
+            "maitre_du_savoir": "21",
+            "noble": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Sagesse +5, Intelligence 90, Tactique 75, Noble lvl 15",
+        "description": "Le héros est un as des tactiques de bataille, +30 en Tactique et +1 en Sagesse."
+    }, {
+        "nom": "Maîtrise de la Parade",
+        "classes": {
+            "artisan": "21",
+            "assassin": "21",
+            "cambrioleur": "21",
+            "barbare": "21",
+            "eclaireur": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "menestrel": "21",
+            "maitre_du_savoir": "21",
+            "moine": "21",
+            "noble": "21",
+            "pretre_militaire": "21",
+            "rodeur": "21",
+            "soigneur": "21"
+        },
+        "prerequis": "20 degrés en arme de mêlée, Agilité 90, Intuition 90",
+        "description": "Le héros est un expert du combat défensif, aussi apte à se protéger avec son arme qu'à délivrer des coups ; il annule une partie de la compétence Feinte de son ennemi du montant du bonus de sa caractéristique Agilité (talent passif).",
+        "rang_superieur": "Rapide et perceptif, le personnage bloque les coups les plus acharnés de ses opposants ; il ajoute le bonus de sa caractéristique Intuition pour contrer la feinte adverse."
+    }, {
+        "nom": "Maîtrise des illusions",
+        "classes": {
+            "menestrel": "30"
+        },
+        "prerequis": "Héritage des bardes, Volonté +6, Chant 150",
+        "description": "Tel le Galdr des Hommes du Nord, le héros est capable de tisser des illusions puissantes pouvant tromper ses ennemis, visuelles et sonores (SD14, test de Chant contre test de perception de la cible [maximum : (Volonté ) personnes], chaque personne en sus de la première ajoute un au seuil de difficulté)."
+    }, {
+        "nom": "Maîtrise du bâton",
+        "classes": {
+            "magicien": "18",
+            "sorcier": "18"
+        },
+        "description": "Pour faire face aux nombreuses épreuves qui parsèment sa route, le personnage a appris à se servir d'un bâton comme d'un bouclier, parant aussi bien les attaques au contact qu'à distance comme s'il se servait d'un pavois, réduisant de deux le nombre de rounds d'étourdissements éventuels."
+    }, {
+        "nom": "Maîtrise du bouclier",
+        "classes": {
+            "barbare": "10",
+            "guerrier": "10",
+            "noble": "10",
+            "rodeur": "10"
+        },
+        "prerequis": "5 degrés en Bouclier, Vigueur +4",
+        "description": "le héros est un parangon du combat au bouclier dont il se sert avec virtuosité pour détourner les coups ennemis, obtenant +15 au bonus défensif sur son bouclier et réduisant un round d'étourdissement (+10 si bouclier de poing).",
+        "rang_superieur": "Le héros dresse un mur devant lui grâce à son bouclier, augmentant son bonus défensif sur son bouclier à un total de +20 (poing), +25 (targe), +30 (écus, rondaches), +35 (pavois), et réduisant deux rounds d'étourdissement.",
+        "prerequis_rang_superieur": "10 degrés en bouclier, Vigueur +5"
+    }, {
+        "nom": "Marche sans traces",
+        "classes": {
+            "animiste": "10",
+            "barbare": "10",
+            "eclaireur": "10",
+            "rodeur": "10"
+        },
+        "prerequis": "Pistage 75, Survie Nature 75",
+        "description": "Le personnage, habitué aux signes trahissant la Présence de l'homme dans la nature, est capable de les effacer ; son action procure un malus de 60 aux tests de pistage ou de perception à ses éventuels poursuivants dans un des milieux suivants : plaines, forêts, montagnes, déserts ou étendues glacées, et ce pour trois personnes au total. Il lui faut deux heures de travail pour effacer des traces sur quatre kilomètres.",
+        "rang_superieur": "Le héros choisit entre augmenter le malus à 90, prendre un environnement supplémentaire (ce choix peut être fait aussi souvent que le nombre de milieux) ou porter à dix le nombre de personnes que le pisteur peut camoufler les traces."
+    }, {
+        "nom": "Milicien",
+        "classes": {
+            "artisan": "15"
+        },
+        "prerequis": "10 degrés en arme, Vigueur +4",
+        "description": "Bien que civil et profondément dévoué à son art, l'artisan n'ignore pas que la vie sur la Terre du Milieu peut être dangereuse ; il a développé ses compétences martiales, obtenant un bonus de +2 par niveau avec la compétence d'arme de son choix."
+    }, {
+        "nom": "Nécromancie",
+        "classes": {
+            "sorcier": "21"
+        },
+        "prerequis": "Obscurantisme, Volonté +6, Savoir Religieux 150",
+        "description": "L'esprit gangrené par la corruption et la soif de pouvoir, le sorcier s'est tourné vers un art interdit, celui du Domaine de la Mort ; il peut désormais lancer des sortilèges liés à la nécromancie, avec un bonus de +2 pour les tests de Vigueur dans cette spécialité (les sortilèges accessibles sont Animation des Morts, Contrôle des Morts, Souffle de la Mort et Seigneur Noir)."
+    }, {
+        "nom": "Noirceur",
+        "classes": {
+            "sorcier": "30"
+        },
+        "prerequis": "Volonté +6, Présence 100",
+        "description": "Une ombre de peur entoure le sorcier, affectant tous ceux se trouvant dans un rayon du double de sa prestance en mètres, pétrifiés par l'aura noir de sa Présence et de sa puissance, et subissant un malus de quinze à toutes leurs actions et de deux à toutes leurs réactions."
+    }, {
+        "nom": "Obscurantisme",
+        "classes": {
+            "moine": "15",
+            "noble": "15",
+            "sorcier": "15"
+        },
+        "prerequis": "Commandement ou Intimidation 100",
+        "description": "Un fanatisme habite le personnage, sur de ses convictions qu'il défend avec ardeur, détruisant ceux qui se dressent devant lui ; il gagne un bonus de +15 à Eloquence et Savoir Religieux ainsi que +1 en Volonté."
+    }, {
+        "nom": "Perception du combat",
+        "classes": {
+            "assassin": "10",
+            "barbare": "10",
+            "cambrioleur": "10",
+            "eclaireur": "10",
+            "guerrier": "10",
+            "larron": "10",
+            "menestrel": "10",
+            "moine": "10",
+            "noble": "10",
+            "rodeur": "10"
+        },
+        "prerequis": "Perception 75, Intuition 90",
+        "description": "Le héros est intuitif dans sa capacité à lire le déroulement d'un combat, il ne peut être surpris sur ses flancs et bénéficie d'un bonus de +2 à son initiative.",
+        "rang_superieur": "Les attaques dans le dos du héros comme dans ses flancs ne bénéficient d'aucun modificateur et il reçoit un bonus total d' initiative de +4.",
+        "prerequis_rang_superieur": "Perception 100, Intuition 95"
+    }, {
+        "nom": "Philosophie",
+        "classes": {
+            "maitre_du_savoir": "15"
+        },
+        "prerequis": "Histoire 100",
+        "description": "Grâce à ses connaissances, le sage a gagné une grande maturité d'esprit, obtenant un bonus de +15 dans Anthropologie et Savoir Religieux et +1 en Sagesse."
+    }, {
+        "nom": "Pouvoir sur le sanctuaire",
+        "classes": {
+            "animiste": "40",
+            "magicien": "40",
+            "sorcier": "40"
+        },
+        "prerequis": "Volonté +8, Sanctuaire",
+        "description": "L'arcaniste est tout puissant dans les limites de son domaine : ses sorts peuvent être lancés sur n'importe quel point (prestance en kilomètres) que le lanceur aperçoit (vue, sorts de scrutation, familier), leurs effets étant renforcés, avec doublement des rayons, durée et intensité."
+    }, {
+        "nom": "Prescience du combat",
+        "classes": {
+            "larron": "30"
+        },
+        "prerequis": "Rapidité +6, Perception 120",
+        "description": "Le héros devine les gestes de son ennemi, aussi bien défensifs qu'offensifs, obtenant un bonus de +20 à toutes ses parades, +/5 à ses critiques de mêlée ainsi que le talent Maître d'armes (initiative)."
+    }, {
+        "nom": "Protecteur",
+        "classes": {
+            "noble": "21"
+        },
+        "prerequis": "Homme noble, Volonté +5, Commandement 100",
+        "description": "Son rang et ses titres ne sont pas des privilèges pour le héros mais au contraire un devoirs absolu envers son peuple ; lorsqu'il combat pour protéger ceux dont il a la charge, il gagne un bonus de +10 à toutes ses compétences martiales, +/5 à ses critiques de mêlée et aussi +2 en initiative."
+    }, {
+        "nom": "Protection à la magie",
+        "classes": {
+            "animiste": "21",
+            "magicien": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Vigueur +5, Volonté +5",
+        "description": "Les enchanteurs et autres manipulateurs de l'essence du monde ont développé une affinité particulière avec la magie ainsi qu'une résistance à ses effets sur le corps, réduisant ainsi de vingt-cinq les dégâts magiques."
+    }, {
+        "nom": "Puissance des Valar",
+        "classes": {
+            "maître du savoir ": "30"
+        },
+        "prerequis": "Arcanes du savoir ou Philosophie, Sagesse +6, Volonté +6, Savoir Religieux 120",
+        "description": "Le maître du savoir a acquis une connaissance quasi-mystique ainsi qu'une compréhension quasi-totale de la destinée des Valar et de leurs rôles ; il gagne +5 à ses tests de réaction lorsqu'il est confronté à l'Ombre ainsi que le talent Armure des Héros."
+    }, {
+        "nom": "Puissance du familier",
+        "classes": {
+            "animiste": "15",
+            "rodeur": "15"
+        },
+        "prerequis": "Familier",
+        "description": "Le compagnon animal du héros, déjà supérieur à ceux de son espèce (deux niveaux), voit sa force et sa puissance augmenter parallèlement à celles de son maître (deux niveaux au départ, plus un niveau par tranche de trois niveaux du maître à partir du niveau 21, offrant les avantages suivants : +5 BO, +5 BD et +10 pdc par niveau, insensible à la peur pour défendre son maître au niveau 24, +/-5 aux critiques au niveau 30, + 5 à l'initiative au niveau 36 et le talent Armure des Héros au niveau 45)."
+    }, {
+        "nom": "Rage du sanguinaire",
+        "classes": {
+            "barbare": "10"
+        },
+        "prerequis": "10 degrés en arme de mêlée, Force 95",
+        "description": "La frénésie du barbare est totale lorsqu'il est pris dans le tumulte du combat, sa hargne et sa férocité décuplant sa force ; chaque coup porté donnant lieu à un critique de perforation ou de taille ajoute un point d'hémorragie par sévérité du critique."
+    }, {
+        "nom": "Réduction des dégâts",
+        "classes": {
+            "barbare": "15",
+            "guerrier": "21"
+        },
+        "prerequis": "Vigueur +5, Constitution 95",
+        "description": "Véritable force de la nature à la vitalité surhumaine, le combattant possède une résistance à la douleur hors du commun et annule cinq points de commotion à chaque attaque physique reçue et annule un round d'étourdissement.",
+        "rang_superieur": "Son corps est émaillé des cicatrices et des marques du combat qu'il ressent comme une fierté, le champion diminue de dix les points de commotion à chaque attaque physique reçue et annule deux rounds d'étourdissement.",
+        "prerequis_rang_superieur": "Vigueur +8, Constitution 98"
+    }, {
+        "nom": "Refuge",
+        "classes": {
+            "artisan": "18"
+        },
+        "prerequis": "Enchantement",
+        "description": "L'artisan, par son travail d'orfèvre et ses talents, a sanctifié son lieu de travail, créant ainsi un refuge réceptif à l'essence de la Terre du Milieu ; ainsi, le coût physique et le temps nécessaire aux enchantements sont réduits de moitié tandis que le seuil de difficulté pour réaliser un chef d’œuvre est diminué de vingt."
+    }, {
+        "nom": "Résistance",
+        "classes": {
+            "animiste": "21",
+            "artisan": "21",
+            "assassin": "21",
+            "cambrioleur": "21",
+            "barbare": "21",
+            "eclaireur": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "magicien": "21",
+            "menestrel": "21",
+            "maitre_du_savoir": "21",
+            "moine": "21",
+            "noble": "21",
+            "pretre_militaire": "21",
+            "rodeur": "21",
+            "soigneur": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Constitution 90",
+        "description": "Le héros a développé au fur et à mesure des années une résistance profonde à la douleur, gagnant de fait vingt-cinq points de coups supplémentaires."
+    }, {
+        "nom": "Résistance à la magie",
+        "classes": {
+            "animiste": "10",
+            "artisan": "10",
+            "assassin": "10",
+            "cambrioleur": "10",
+            "barbare": "10",
+            "eclaireur": "10",
+            "guerrier": "10",
+            "larron": "10",
+            "magicien": "10",
+            "menestrel": "10",
+            "maitre_du_savoir": "10",
+            "moine": "10",
+            "noble": "10",
+            "pretre_militaire": "10",
+            "rodeur": "10",
+            "soigneur": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Volonté +4",
+        "description": "Le personnage possède naturellement une résistance à la magie du fait d'une forte insensibilité à l'essence de la Terre du Milieu, annulant quarante points de dégâts magiques ; cependant, ses tests de sortilège ont un malus de deux."
+    }, {
+        "nom": "Rétablissement",
+        "classes": {
+            "soigneur": "30"
+        },
+        "prerequis": "Sagesse +6, Volonté +6",
+        "description": "Maître des arts de la guérison, le personnage est capable de prouesses miraculeuses ; il guérit ses patients de cent points de commotion (cent cinquante avec un point de courage) et doit observer à l'issue un repos total d'une journée. Il ne peut effectuer de tels soins que (Vigueur ) fois par mois."
+    }, {
+        "nom": "Sagesse profonde",
+        "classes": {
+            "animiste": "30",
+            "artisan": "30",
+            "assassin": "30",
+            "cambrioleur": "30",
+            "barbare": "30",
+            "eclaireur": "30",
+            "guerrier": "30",
+            "larron": "30",
+            "magicien": "30",
+            "menestrel": "30",
+            "maitre_du_savoir": "30",
+            "moine": "30",
+            "noble": "30",
+            "pretre_militaire": "30",
+            "rodeur": "30",
+            "soigneur": "30",
+            "sorcier": "30"
+        },
+        "prerequis": "Sagesse ou Volonté +6",
+        "description": "Comme Flamboyance mais avec la caractéristique Intuition."
+    }, {
+        "nom": "Sanctuaire",
+        "classes": {
+            "animiste": "30",
+            "magicien": "30",
+            "sorcier": "30"
+        },
+        "prerequis": "Volonté +6",
+        "description": "Le lanceur de sorts s'est installé dans un endroit consacré ou imprégné d'un fragment de l'essence de la Terre du Milieu, renforçant ses pouvoirs en ce lieu ; +1 à toutes ses réactions (+2 si le héros à Volonté +10), état de prescience sur les intrus à l'intérieur de son domaine dans un rayon de sa Prestance en mètres, doublement de la valeur de ses bonus de caractéristiques de Force, Agilité et Constitution (maximum +25). En outre, le seuil de difficulté des sortilèges diminue de deux."
+    }, {
+        "nom": "Savoir-faire",
+        "classes": {
+            "assassin": "10",
+            "cambrioleur": "10",
+            "eclaireur": "10",
+            "magicien": "10",
+            "menestrel": "10",
+            "rodeur": "10",
+            "sorcier": "10"
+        },
+        "description": "Le personnage est un touche à tout, réputé pour sa polyvalence, et gagne ainsi un bonus de +1/niveau dans une compétence où il était jusqu'à présent néophyte, hormis les compétences de combat."
+    }, {
+        "nom": "Science de l'épée",
+        "classes": {
+            "magicien": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Maîtrise du bâton, 10 degrés en arme",
+        "description": "Le personnage, bien que lettré et savant, n'a pas dédaigné l'apprentissage de l'épée, la plus noble arme qui soit, acquérant un bonus de +25 dans sa compétence martiale ainsi qu'un bonus de +3 à son initiative."
+    }, {
+        "nom": "Science de l'esquive",
+        "classes": {
+            "assassin": "15",
+            "cambrioleur": "21",
+            "moine": "10"
+        },
+        "prerequis": "Agilité 95",
+        "description": "L'agilité du héros est telle que son bonus défensif est augmenté de quinze contre toutes les attaques physiques dont il a conscience."
+    }, {
+        "nom": "Science du bouclier",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21"
+        },
+        "prerequis": "Vigueur +4, Force 90, 10 degrés en Bouclier",
+        "description": "Certains combattants préfèrent utiliser leurs boucliers comme une arme afin de s'en servir pour frapper leurs adversaires ; ils délivrent cent cinquante pour cent des dégâts normaux d'une attaque au bouclier et la taille maximale de l'attaque est augmentée d'un niveau (grande pour un écu, maximale pour un rondache, et +5 au critique pour un pavois)."
+    }, {
+        "nom": "Science du combat",
+        "classes": {
+            "assassin": "18",
+            "barbare": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "moine": "18",
+            "noble": "21",
+            "rodeur": "21"
+        },
+        "prerequis": "20 degrés en arme de mêlée",
+        "description": "Le personnage est un habitué des champs de bataille et se sert de son arme avec dextérité et Rapidité , obtenant un bonus de +5 à son initiative."
+    }, {
+        "nom": "Science du critique",
+        "classes": {
+            "guerrier": "21"
+        },
+        "prerequis": "20 degrés en arme, maître d'armes",
+        "description": "Aucun combattant ne peut prétendre rivaliser avec le héros, car ses coups sont aussi précis que dévastateurs, ajoutant +/-10 à ses critiques.",
+        "rang_superieur": "(30 degrés en arme, niveau 30) Le personnage est un guerrier légendaire aux coups mortels, digne des plus grandes sagas, ajoutant +/-20 à ses critiques.",
+        "prerequis_rang_superieur": "30 degrés en arme, niv. 30"
+    }, {
+        "nom": "Seigneur des forêts",
+        "classes": {
+            "rodeur": "30"
+        },
+        "prerequis": "Marche sans traces ou Forestier ou Endurance accrue, 30 degrés en arc",
+        "description": "Le héros est l'un des plus grands forestiers que la Terre du Milieu ait connue, apte à se fondre dans son environnement ; il ne commet plus de maladresse avec un arc ou les compétences de Filature/Dissimulation, Pistage et Survie Nature, réussissant des succès critiques sur 94-00. De plus, ses pénalités de rechargement avec un arc sont réduites de dix et ses critiques à l'arc majorés de +/-10 lorsqu'il utilise Tireur d'élite."
+    }, {
+        "nom": "Souplesse du serpent",
+        "classes": {
+            "assassin": "21",
+            "cambrioleur": "21",
+            "eclaireur": "21"
+        },
+        "prerequis": "20 degrés en arme de mêlée, Agilité 95",
+        "description": "L'agilité et la vivacité sont les avantages d'un roublard qui, lorsqu'il utilise une lame courte (dague, main gauche, épée courte, rapière, cimeterre), lui permet de ne jamais commettre de maladresse et d'avoir un bonus de +3 à son initiative."
+    }, {
+        "nom": "Spécialisation martiale",
+        "classes": {
+            "barbare": "05",
+            "guerrier": "05",
+            "assassin": "05",
+            "larron": "05",
+            "noble": "05",
+            "rodeur": "05",
+            "moine": "05"
+        },
+        "prerequis": "barbare, guerrier (toutes armes), assassin (lames courtes), larron (toutes armes sauf armes à deux mains), noble (armes de mêlée), rôdeur (arc), moine (arts martiaux)",
+        "description": "Le héros est un spécialiste de l'arme utilisée, gagnant +10 à son bonus offensif, +2 à son initiative et diminuant sa gamme de maladresse de un."
+    }, {
+        "nom": "Spécialité magique",
+        "classes": {
+            "magicien": "10",
+            "sorcier": "10"
+        },
+        "description": "Le lanceur de sort choisit une spécialité parmi les différentes catégories de sorts et reçoit un bonus de +2 pour ses tests de Vigueur des sortilèges afférents, étant devenu légendaire dans la maîtrise de ces sorts particuliers."
+    }, {
+        "nom": "Tir Lointain",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "rodeur": "21"
+        },
+        "prerequis": "20 degrés en arme, spécialisation martiale, Perception 75",
+        "description": "Le bras vigoureux du héros lui permet de mieux frapper à distance, la portée de ses attaques avec les arcs et frondes est augmenté en mètres de la valeur du bonus de sa caractéristique Force, et de la moitié de celle-ci pour ses attaques avec des armes lancées."
+    }, {
+        "nom": "Tir mortel",
+        "classes": {
+            "barbare": "30",
+            "guerrier": "30",
+            "larron": "30",
+            "rodeur": "30"
+        },
+        "prerequis": "30 degrés en arme, tir puissant, Perception 100",
+        "description": "Les tirs du héros sont d'une précision diabolique, atteignant l'endroit visé, permettant l'obtention d'un bonus de +/-10 aux critiques, cumulable avec Tireur d'élite."
+    }, {
+        "nom": "Tir puissant",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21",
+            "larron": "18",
+            "rodeur": "15"
+        },
+        "prerequis": "Tir lointain, Perception 85",
+        "description": "Les flèches décochées par le héros ou ses javelots font de terribles blessures sur ses adversaires, infligeant cent cinquante pour cent des dégâts normaux."
+    }, {
+        "nom": "Usurpation",
+        "classes": {
+            "assassin": "18",
+            "cambrioleur": "18",
+            "eclaireur": "15",
+            "larron": "21"
+        },
+        "prerequis": "Intelligence 90",
+        "description": "Les roublards savent se fondre dans la foule, mais également emprunter les habitudes et identités des autres ; ils gagnent un bonus de +15 dans les compétences de Comédie et Déguisement ainsi que +1 en Volonté , ainsi que la faculté à adopter l'accent local pour les langages parfaitement maîtrisés (degré 4 ou 5)."
+    }, {
+        "nom": "Vertus des Valar",
+        "classes": {
+            "animiste": "15",
+            "artisan": "15",
+            "assassin": "15",
+            "cambrioleur": "15",
+            "barbare": "15",
+            "eclaireur": "15",
+            "guerrier": "15",
+            "larron": "15",
+            "magicien": "15",
+            "menestrel": "15",
+            "maitre_du_savoir": "15",
+            "moine": "15",
+            "noble": "15",
+            "pretre_militaire": "15",
+            "rodeur": "15",
+            "soigneur": "15",
+            "sorcier": "15"
+        },
+        "prerequis": "Personnages bons, Sagesse +5",
+        "description": "Le héros bénéficie de la faveur des Valar lorsqu'il invoque leurs noms ; ainsi le nom d'Elbereth lui apporte un bonus de +2 à ses tests de Volonté face aux créatures de l'Ombre et tous ses tests de courage, tandis que la force de Tulkas se manifeste pendant trois actions avec un gain de +25 en Force (perte d'un niveau de fatigue à l'issue) ; enfin, le pouvoir d'Ulmo qui réside dans les cours d'eau lui permettent de régénérer deux fois plus vite ses blessures en se baignant."
+    }, {
+        "nom": "Vigueur de fer",
+        "classes": {
+            "animiste": "15",
+            "artisan": "15",
+            "assassin": "15",
+            "cambrioleur": "15",
+            "barbare": "15",
+            "eclaireur": "15",
+            "guerrier": "15",
+            "larron": "15",
+            "magicien": "15",
+            "menestrel": "15",
+            "maitre_du_savoir": "15",
+            "moine": "15",
+            "noble": "15",
+            "pretre_militaire": "15",
+            "rodeur": "15",
+            "soigneur": "15",
+            "sorcier": "15"
+        },
+        "prerequis": "Vigueur +4, Constitution 90",
+        "description": "Le héros possède une santé de fer, insensible en grande partie aux effets de la fatigue ; il possède par conséquent deux stades supplémentaires à l'état reposé (ce qui donne les états suivants : reposé, reposé, pleine forme, essoufflé [-1/-10], fatigué [-2/-15], usé [-4/-30], épuisé [-8/-65], à bout de forces[incapable d'agir])."
+    }, {
+        "nom": "Virtuosité de l'Assassin",
+        "classes": {
+            "assassin": "21"
+        },
+        "prerequis": "Souplesse du serpent, Rapidité +5, Agilité 95",
+        "description": "Le personnage est devenu expert dans le maniement de ses armes dans plusieurs registres différents ; ainsi, pour toutes les armes maniées à une main, il peut utiliser au choix la Force ou l'Agilité, gagnant de surcroît un bonus de +3 à son initiative."
+    }, {
+        "nom": "Vision animale",
+        "classes": {
+            "animiste": "10"
+        },
+        "prerequis": "Familier",
+        "description": "Le lanceur de sort peut voir et entendre à travers le prisme de son familier comme s'il utilisait le sort Vision Distante, mais il n'a pas besoin de connaître les lieux et la scrutation ne peut être détectée par la cible. Lorsqu'il reprend ses esprits, il perd néanmoins deux niveaux de fatigue."
+    }, {
+        "nom": "Vivacité du cambrioleur",
+        "classes": {
+            "cambrioleur": "21"
+        },
+        "prerequis": "Souplesse du serpent, Rapidité +5, Agilité 95",
+        "description": "Le cambrioleur a appris à se servir d'une arme comme peu de ses congénères, gagnant ainsi le talent Savoir-faire pour la catégorie d'arme à une main de son choix."
+    }, {
+        "nom": "Voie du brigand",
+        "classes": {
+            "larron": "10"
+        },
+        "description": "Le larron est un homme vivant dans la marginalité, que ce soit dans une cité ou dans les terres sauvages ; il choisit entre criminel (+15 dans les compétences Crochetage, Filature/Dissimulation, Falsification et Prestidigitation) et bandit de grand chemin ( +15 dans les compétences Filature/Dissimulation, Perception, Pistage et Survie Nature)."
+    }, {
+        "nom": "Volonté inébranlable",
+        "classes": {
+            "animiste": "15",
+            "artisan": "15",
+            "assassin": "15",
+            "cambrioleur": "15",
+            "barbare": "15",
+            "eclaireur": "15",
+            "guerrier": "15",
+            "larron": "15",
+            "magicien": "15",
+            "menestrel": "15",
+            "maitre_du_savoir": "15",
+            "moine": "15",
+            "noble": "15",
+            "pretre_militaire": "15",
+            "rodeur": "15",
+            "soigneur": "15",
+            "sorcier": "15"
+        },
+        "prerequis": "Volonté +4",
+        "description": "Les résistances mentales du personnage sont impressionnantes, lui permettant de s'opposer à toutes sortes de domination ; ses tests de Volonté sont augmentés de quatre pour lutter contre la corruption, la peur ou toute tentative de domination, magique ou naturelle."
+    }, {
+        "nom": "Science des armes",
+        "classes": {
+            "artisan": "21"
+        },
+        "prerequis": "Milicien, 25 degrés en arme",
+        "description": "L'artisan est devenu un excellent combattant par la force des choses, que ce soit pour répondre à l'appel de son seigneur ou pour défendre son foyer ; il gagne un bonus de +/- 5 à ses critiques avec ses armes privilégiées ainsi qu'un bonus d'initiative de +3."
+    }, {
+        "nom": "Science du commerce",
+        "classes": {
+            "artisan": "21",
+            "cambrioleur": "21"
+        },
+        "prerequis": "",
+        "description": "Le personnage est un négociateur hors pair, possédant une langue de velours dans le domaine des affaires ; il gagne un bonus de +15 dans les compétences suivantes : commerce, éloquence, estimation et séduction."
+    }, {
+        "nom": "Survivant",
+        "classes": {
+            "animiste": "10",
+            "barbare": "10",
+            "eclaireur": "10",
+            "rodeur": "10"
+        },
+        "prerequis": "Agilité 95",
+        "description": "Dans les milieux naturels et en l'absence de protections encombrantes (classes d'armure de TA 1 à 6, TA 9 et TA 13), le personnage parvient à se mouvoir avec grâce et fluidité, lui octroyant un bonus de +10 à son BD et de +15 à sa compétence de Filature/Dissimulation, ainsi qu'un modificateur de +3 à son initiative en mêlée."
+    }, {
+        "nom": "Forestier",
+        "classes": {
+            "animiste": "10",
+            "barbare": "10",
+            "eclaireur": "10",
+            "rodeur": "10"
+        },
+        "prerequis": "Survie nature 100",
+        "description": "Les compétences du personnage sont exceptionnelles en milieu naturel, lui conférant un bonus de +15 en construction de pièges, filature/dissimulation, perception et pistage."
+    }, {
+        "nom": "Combattant aguerri",
+        "classes": {
+            "animiste": "21",
+            "artisan": "21",
+            "assassin": "21",
+            "cambrioleur": "21",
+            "barbare": "21",
+            "eclaireur": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "magicien": "21",
+            "menestrel": "21",
+            "maitre_du_savoir": "21",
+            "moine": "21",
+            "noble": "21",
+            "pretre_militaire": "21",
+            "rodeur": "21",
+            "soigneur": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "25 degrés en armes",
+        "description": "Les coups du personnages sont redoutables grâce à sa grande expertise ; ses maladresses sont réduites de un, son initiative augmente de trois, ses dégâts du nombre de degrés dans la compétence supplémentaires à vingt cinq (dans une limite d'un maximum de vingt cinq, sans excéder les dégâts normalement occasionnés par l'attaque)."
+    }, {
+        "nom": "Renforcement",
+        "classes": {
+            "artisan": "30",
+            "assassin": "30",
+            "cambrioleur": "30",
+            "barbare": "30",
+            "eclaireur": "30",
+            "guerrier": "30",
+            "larron": "30",
+            "menestrel": "30",
+            "moine": "30",
+            "noble": "30",
+            "pretre_militaire": "30",
+            "rodeur": "30",
+            "soigneur": "30"
+        },
+        "prerequis": "30 degrés en arme",
+        "description": "Le personnage a vu bien des escarmouches et des champs de bataille, devenant expert dans les situations de combat et les différentes armes. Il gagne un bonus de +15 à son BD (+20 si spécialisé) contre un des types d'armes au choix : épées, haches, masses, lances, dagues et poignards, armes à deux mains, poings, armes naturelles (griffes, dents, corne)."
+    }, {
+        "nom": "Chant de bataille",
+        "classes": {
+            "menestrel": "18"
+        },
+        "prerequis": "Enthousiasme ou Cœur léger",
+        "description": "Le ménestrel insuffle héroïsme et bravoure chez ses partenaires, leur procurant un bonus de +25 à leurs compétences d'armes durant la durée de son chant et pour un nombre de personnes égal à sa prestance divisée par deux."
+    }, {
+        "nom": "Science de la guérison",
+        "classes": {
+            "soigneur": "15"
+        },
+        "prerequis": "Mains guérisseuses, médecine 100",
+        "description": "Le soigneur est capable de guérir les maux les plus terribles, soulageant la souffrance de ceux passant entre ses mains ; ceux qui bénéficient de son aide pendant une semaine voient leurs guérison accélérée, réduisant leurs pénalités de vingt."
+    }, {
+        "nom": "Artisanat",
+        "classes": {
+            "animiste": "10",
+            "artisan": "10",
+            "assassin": "10",
+            "cambrioleur": "10",
+            "barbare": "10",
+            "eclaireur": "10",
+            "guerrier": "10",
+            "larron": "10",
+            "magicien": "10",
+            "menestrel": "10",
+            "maitre_du_savoir": "10",
+            "moine": "10",
+            "noble": "10",
+            "pretre_militaire": "10",
+            "rodeur": "10",
+            "soigneur": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Une compétence d'artisanat avec un bonus professionnel de +1/+2",
+        "description": "La création est la marque des audacieux, certains aventuriers ont poussé leur passion des belles choses au point de rivaliser avec les meilleurs artisans ; ils transforment leur bonus en l'améliorant au niveau supérieur."
+    }, {
+        "nom": "Science de la défense adrénale",
+        "classes": {
+            "moine": "15"
+        },
+        "prerequis": "10 degrés en défense adrénale, Agilité 100",
+        "description": "A mains nues, le héros est capable d'esquives miraculeuses, évitant les coups avec une aisance déconcertante ; il obtient un bonus de vingt à sa compétence défense adrénale."
+    }, {
+        "nom": "Science de l'arme kata",
+        "classes": {
+            "moine": "21"
+        },
+        "prerequis": "20 degrés en arme-kata, Spécialisation en arme-kata",
+        "description": "Le combattant a appris à frapper avec célérité ses adversaires, aussi vif qu'un félin ; son initiative avec son arme est augmentée de cinq."
+    }, {
+        "nom": "Science des arts martiaux",
+        "classes": {
+            "moine": "15"
+        },
+        "prerequis": "20 degrés en art martiaux, Spécialisation en arts martiaux",
+        "description": "Le guerrier-moine frappe à une vitesse aveuglante lorsqu'il utilise ses poings et pieds ; son initiative est alors augmentée de huit."
+    }, {
+        "nom": "Griffe du dragon",
+        "classes": {
+            "moine": "21"
+        },
+        "prerequis": "25 degrés en arts martiaux, Science des arts martiaux",
+        "description": "Le héros est un redoutable tueur à mains nues, frappant avec précision ses ennemis ; il gagne un ajustement de +/-10 à ses critiques à mains nues."
+    }, {
+        "nom": "Vigueur du moine",
+        "classes": {
+            "moine": "18"
+        },
+        "prerequis": "Vigueur +6, Constitution 98",
+        "description": "Ignorant la douleur grâce à des heures d'entraînement intensif et une Volonté de fer, le combattant voit les dommages qui lui sont infligés être réduit de dix, ainsi qu'une réduction de dix des pénalités."
+    }, {
+        "nom": "Saut du tigre",
+        "classes": {
+            "moine": "30"
+        },
+        "prerequis": "Science de l'esquive, Agilité 100",
+        "description": "A mains nues ou avec son arme-kata, le moine est capable de prouesses extraordinaires pour éviter les attaques ennemies, écoeurant ses adversaires ; son bonus défensif est augmenté de quarante lorsqu'il ne porte aucune armure."
+    }, {
+        "nom": "Concentration mystique",
+        "classes": {
+            "moine": "21"
+        },
+        "prerequis": "Savoir religieux 80, Sagesse +5, Volonté +5",
+        "description": "Le moine est profondément imprégné de mysticisme, méditant pendant de longues heures sur le monde et ses habitants ; lorsqu'il a pu consacrer deux heures de son temps à la méditation, il gagne l'effet du sortilège Sort de Défense (nombre d'heures égal à sa prestance) ou du sortilège Peau de Pierre (réduction de vingt des dommages physiques), à la condition de réussir un test de Volonté SD 12."
+    }, {
+        "nom": "Traqueur impitoyable",
+        "classes": {
+            "rodeur": "21"
+        },
+        "prerequis": "Ennemi juré, 25 degrés en arme de mêlée",
+        "description": "Tout à la haine de son ennemi séculaire, le héros est capable de lui porter des coups redoutables ; ses attaques de mêlée sont alors augmentées de vingt cinq."
+    }, {
+        "nom": "Stoïcisme",
+        "classes": {
+            "barbare": "18"
+        },
+        "prerequis": "Réduction des dégâts",
+        "description": "A la suite d'innombrables blessures acquises à l'entraînement ou sur les champs de bataille, les barbares ont appris à endurer la douleur comme nul autre ; ils réduisent les malus de pénalité de vingt (trente s'ils ont dur à cuire)."
+    }, {
+        "nom": "Endurance au combat",
+        "classes": {
+            "guerrier": "18"
+        },
+        "prerequis": "Réduction des dégâts ",
+        "description": "Les guerriers sont capables de lutter des heures sur un champ de bataille, malgré la fatigue et les coups reçus ; ils ne reçoivent alors plus de pénalité par rapport à leur nombre de points de coups restant."
+    }, {
+        "nom": "Présence Inspirante",
+        "classes": {
+            "noble": "18"
+        },
+        "prerequis": "Homme noble, Présence 98, Volonté +5",
+        "description": "Le héros, incarnation du meilleur de la noblesse, est un exemple pour ses compagnons d'arme, les exhortant au cœur des situations les plus compliquées ; ceux qui combattent de son côté dans un rayon en mètres du montant de sa prestance reçoivent un bonus de +15 à leurs compétences de combat en mêlée."
+    }, {
+        "nom": "Prouesses physiques",
+        "classes": {
+            "magicien": "15",
+            "sorcier": "15"
+        },
+        "prerequis": "Vigueur +5",
+        "description": "Les lanceurs de sortilèges sont en général de piètres sportifs, pas le héros ; il gagne un bonus de +15 en athlétisme, escalade, natation et développement corporel."
+    }, {
+        "nom": "Anatomie",
+        "classes": {
+            "assassin": "21",
+            "cambrioleur": "21",
+            "larron": "21"
+        },
+        "prerequis": "25 degrés en arme, Agilité 100",
+        "description": "L'anatomie du genre humain n'a guère de secrets pour les roublards, habitués à frapper les endroits les plus exposés ; ils obtiennent un modificateur de +/-10 à leurs critiques contre les hommes."
+    }, {
+        "nom": "Science du combat à deux armes",
+        "classes": {
+            "assassin": "21",
+            "barbare": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "moine": "21",
+            "noble": "21",
+            "rodeur": "21"
+        },
+        "prerequis": "20 degrés en arme, Agilité 98, Science du combat",
+        "description": "Le héros porte des attaques virevoltantes, plongeant ses deux armes dans le corps de ses ennemis avec une Rapidité et précision impressionnantes ; il n'a plus de malus de main gauche, gagne un bonus de +3 en initiative et il obtient des succès critiques sur un score de 91-00 avec sa main secondaire (un personnage ambidextre gagne cet avantage sur ses deux attaques)."
+    }, {
+        "nom": "Bouclier du magicien",
+        "classes": {
+            "magicien": "30"
+        },
+        "prerequis": "Vigueur +6, Volonté +6, Sort de défense",
+        "description": "L'arcaniste a étudié comme nul autre et sa manipulation de l'essence de la Terre du Milieu est exceptionnelle ; une fois par bataille ou session de jeu, il peut invoquer le pouvoir des puissances et ainsi augmenter la protection de son sort de défense (qui doit être actif) : il détourne tout projectile et obtient +100 à son bonus défensif contre une attaque de contact (+150 avec un point de courage) et perd aussitôt un niveau de fatigue."
+    }, {
+        "nom": "Connaissances mystérieuses",
+        "classes": {
+            "eclaireur": "21"
+        },
+        "prerequis": "Sagesse +4, Eclaireur lvl 15",
+        "description": "Espionnant les ennemis de son peuple ou de ses maîtres, l'éclaireur a développé nombre de ses compétences ; il gagne un bonus de +15 à cryptographie, savoir religieux, interrogatoire et savoir régional."
+    }, {
+        "nom": "Bénédiction d'Oromë",
+        "classes": {
+            "rodeur": "15"
+        },
+        "prerequis": "Vigueur +5",
+        "description": "Chasseur, forestier, défenseur, le héros incarne la bravoure du Grand Chasseur ; il peut accroître d'un rang l'une de ses caractéristiques physiques."
+    }, {
+        "nom": "Seigneur de guerre",
+        "classes": {
+            "barbare": "21",
+            "noble": "21",
+            "rodeur": "21"
+        },
+        "prerequis": "25 degrés en arme, Science du combat",
+        "description": "Le héros peut faire pleuvoir des coups avec une grande précision pour abattre ses ennemis ; il obtient un bonus de+/-5 à ses critiques ainsi qu'un bonus de +3 à son initiative."
+    }, {
+        "nom": "Sentinelle",
+        "classes": {
+            "animiste": "21",
+            "maitre_du_savoir": "21",
+            "soigneur": "21"
+        },
+        "prerequis": "20 degrés en arme",
+        "description": "Peu confronté d'ordinaire à des situations de conflit, le héros n'en a pas moins négligé ses talents de combat ; il gagne un bonus de +15 avec son arme privilégiée, ainsi qu'un bonus d'initiative de trois."
+    }, {
+        "nom": "Science de la feinte",
+        "classes": {
+            "guerrier": "21"
+        },
+        "prerequis": "20 degrés en arme, Maître d'armes",
+        "description": "Le combattant a affiné ses techniques de combat toute sa vie durant, maîtrisant son art comme personne ; il gagne un bonus de +25 à la compétence feinte ainsi qu'un bonus d'initiative de deux."
+    }, {
+        "nom": "Spécialisation arme kata",
+        "classes": {
+            "moine": "15"
+        },
+        "prerequis": "15 degrés en arme kata",
+        "description": "Le moine a parfait ses gammes concernant son arme de prédilection, devenant aussi affûté que le meilleur guerrier ; son bonus de profession avec son arme devient +3."
+    }, {
+        "nom": "Vindicte",
+        "classes": {
+            "moine": "21"
+        },
+        "prerequis": "Science de l'arme kata, 25 degrés en arme kata",
+        "description": "Les coups du moine sont terriblement meurtriers lorsqu'il manipule son arme de choix : ses critiques sont modifiés de +/- 5, son initiative ajustée de +3."
+    }, {
+        "nom": "Seigneur des armes",
+        "classes": {
+            "guerrier": "21"
+        },
+        "prerequis": "Expertise martiale, Science du critique, 25 degrés en arme",
+        "description": "Le guerrier est un combattant hors pair, sachant manier toute arme de mêlée comme nul autre ; tous ses critiques sont modifiés de +/5 avec une arme de mêlée tandis que son initiative est modifiée de +3."
+    }, {
+        "nom": "Bravoure",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21",
+            "noble": "21"
+        },
+        "prerequis": "Homme noble ou Héroïsme, Constitution 95",
+        "description": "Le héros ne s'avoue jamais vaincu, luttant jusqu'à ses dernières forces lorsqu'il est sur un champ de bataille ; lorsqu'il tombe en dessous de la moitié de ses points de coup, il peut dépenser un point de courage pour regagner un nombre de points de coup égal à son bonus de constitution (bonus de vingt si dur à cuire)."
+    }, {
+        "nom": "Témérité",
+        "classes": {
+            "animiste": "15",
+            "artisan": "15",
+            "assassin": "15",
+            "cambrioleur": "15",
+            "barbare": "15",
+            "eclaireur": "15",
+            "guerrier": "15",
+            "larron": "15",
+            "magicien": "15",
+            "menestrel": "15",
+            "maitre_du_savoir": "15",
+            "moine": "15",
+            "noble": "15",
+            "pretre_militaire": "15",
+            "rodeur": "15",
+            "soigneur": "15",
+            "sorcier": "15"
+        },
+        "prerequis": "Présence 95",
+        "description": "Le héros est prêt à prendre tous les risques pour accomplir ce qu'il estime juste ou nécessaire ; il obtient un point de courage supplémentaire ainsi qu'un point de bonus au choix entre Rapidité et Vigueur."
+    }, {
+        "nom": "Maîtrise des armes",
+        "classes": {
+            "eclaireur": "21",
+            "menestrel": "21"
+        },
+        "prerequis": "20 degrés en arme",
+        "description": "Si en général, les éclaireurs et ménestrels ont peu l'occasion de devoir se battre, il n'en est pas de même pour le héros, qui a donc du développer ses compétences martiales avec une arme de choix ; pour cette arme, il gagne un bonus de +20 ainsi que +3 en initiative."
+    }, {
+        "nom": "Esquive surnaturelle",
+        "classes": {
+            "assassin": "21",
+            "cambrioleur": "21",
+            "eclaireur": "21",
+            "larron": "21",
+            "moine": "21",
+            "rodeur": "21"
+        },
+        "prerequis": "Dextérité défensive ou Science de l'esquive ou Survivant, Acrobaties 100",
+        "description": "Le héros est capable d'éviter des attaques que nul autre ne saurait esquiver ; en dépensant un point de courage, le héros gagne un bonus de vingt cinq à son bonus défensif (il doit porter pour cela une armure légère, TA 1-4/5/6/7/9/10/13)."
+    }, {
+        "nom": "Morsure du Dragon",
+        "classes": {
+            "moine": "30"
+        },
+        "prerequis": "Griffe du dragon, 30 degrés en arts martiaux",
+        "description": "Nul ne peut survivre aux attaques à mains nues du moine, délivrées avec une redoutable efficacité meurtrière ; l'ajustement aux critiques est désormais de +/-15 et les points de coup sont majorés de 12/10/8/6/4 en fonction des types d'armure."
+    }, {
+        "nom": "Tornade",
+        "classes": {
+            "moine": "30"
+        },
+        "prerequis": "Vindicte, 30 degrés en arme-kata",
+        "description": "Le moine frappe ses adversaires avec son arme en tournoyant sur lui-même, infligeant une seconde attaque de la pointe de son arme, résolue sur la table des bâtons avec un malus de cinquante (résultat pair/impair :critique de contusion/critique de perforation)."
+    }, {
+        "nom": "Force de la Panthère",
+        "classes": {
+            "moine": "21"
+        },
+        "prerequis": "Science de l'arme-kata",
+        "description": "L'arme-kata du moine est son prolongement naturel, il bénéficie de la moitié des degrés de défense adrénale lorsqu'il utilise son arme (ainsi que la moitié des éventuels bonus liés à science de la défense adrénale ou compétence acrobaties) et qu'il est sans armure."
+    }, {
+        "nom": "Maîtrise des Armures Lourdes",
+        "classes": {
+            "guerrier": "15",
+            "noble": "18"
+        },
+        "prerequis": "Force 95, Dextérité défensive ou Maîtrise du bouclier ou Réduction des dégâts",
+        "description": "Les combattants tels que les guerriers et les nobles sont habitués de par leur culture à porter de lourdes protections (protections en cuir lourd, mailles et plaques) ; ils obtiennent une réduction des pénalités de Rapidité et de manœuvre de dix, une réduction du malus d'initiative de deux ainsi qu'une réduction de malus de d'initiative de bouclier de un ; de surcroît, équipés d'une armure de cuir lourd, cotte ou haubert de mailles, harnois, cuirasse et cuirasse lourde en conjonction avec un bouclier et un casque, leur bonus défensif est augmenté de cinq."
+    }, {
+        "nom": "Frappe Aveuglante",
+        "classes": {
+            "barbare": "15",
+            "rodeur": "21"
+        },
+        "prerequis": "Agilité 95, Coups puissants ou Science du combat ou Rage sanguinaire, Barbare lvl 15",
+        "description": "Lorsqu'ils sont peu ou pas armurés (TA 1-4, 5-6, 9-10,13), les barbares et rôdeurs obtiennent un bonus spécial de cinq à leur initiative de combat en mêlée, spécialistes des attaques éclairs et cinglantes, et obtiennent un critique sur 91-00."
+    }, {
+        "nom": "Embuscade",
+        "classes": {
+            "assassin": "21"
+        },
+        "prerequis": "Agilité 95, Souplesse du serpent ou Agilité des roublards",
+        "description": "Lorsqu'il combat en supériorité numérique un adversaire, l'assassin obtient un bonus de vingt en sus de tout autre modificateur à son bonus offensif ainsi qu'un bonus de +/5 à ses critiques de mêlée."
+    }, {
+        "nom": "Déplacement Instinctif",
+        "classes": {
+            "cambrioleur": "21",
+            "éclaireur": "21"
+        },
+        "prerequis": "Intuition 98, Perception 150, Cambrioleur lvl 18",
+        "description": "Les héros ont la capacité presque surnaturelle de lire les mouvements de leurs ennemis, leur permettant d'anticiper les attaques ; ils gagnent un ajustement de dix à leur bonus défensif lorsqu'ils sont conscients d'une attaque de mêlée ou à distance."
+    }, {
+        "nom": "Puissance des Eléments",
+        "classes": {
+            "magicien": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Cœur de magicien (cœur de sorcier), Volonté +6, Sagesse +5,  Alchimie 175",
+        "description": "Le magicien a appris à manipuler de formidables sources de puissance, et lance par conséquent de puissants sorts élémentalistes : ses éclairs et autres sorts offensifs peuvent toucher deux personnes (avec une puissance réduite de cinquante points, le SD du sort est augmenté de un)."
+    }, {
+        "nom": "Voies de l'Archimage",
+        "classes": {
+            "magicien": "40",
+            "sorcier": "40"
+        },
+        "prerequis": "Puissance des éléments, Volonté +8, Sagesse +6",
+        "description": "La toute puissance des éléments se trouve entre les mains du conjureur, celui-ci pouvant désormais toucher cinq cibles avec un sort élémentaire (les dégâts sont minorés de cent points, le SD du sort est augmenté de trois)."
+    }, {
+        "nom": "Foudre Implacable",
+        "classes": {
+            "magicien": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Cœur de magicien (cœur de sorcier), Volonté +6, Alchimie 175",
+        "description": "Le conjureur a appris à lancer ses sortilèges de manière terriblement efficace, en ce qui concerne Explosion de Sorcellerie (sorcier) ou Flamme d'Anor (magicien) ; il ajuste ses critiques du double de son attribut Sagesse."
+    }, {
+        "nom": "Marteau de Thorr",
+        "classes": {
+            "animiste": "21"
+        },
+        "prerequis": "Sagesse +6, Survie Nature 150",
+        "description": "L'animiste est profondément en phase avec son environnement : il peut utiliser l'électricité statique de l'air pour frapper un ennemi avec un éclair similaire à la foudre (le SD de Vigueur est de 12, les dégâts sont de l'ordre du niveau du lanceur en D6, le critique varie selon la réussite avec des intermédiaires 12/14/16/18/20). Si le temps est orageux, les dés de dégâts sont des D10 et le SD est de l'ordre de 10."
+    }, {
+        "nom": "Charmes et Talismans",
+        "classes": {
+            "animiste": "21",
+            "magicien": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Sagesse +5, Volonté +5",
+        "description": "L'usage de la magie est exténuant, les jeteurs de sorts ont donc recours à des charmes et talismans imprégnés de leur magie ; en passant deux heures pour recharger son talisman, le jeteur de sort peut bénéficier à une occasion du renforcement de ses pouvoirs avec un bonus de +3 pour jeter un de ses sortilèges(+5 avec Homme Sage et Rusé)."
+    }, {
+        "nom": "Nulle Blessure",
+        "classes": {
+            "soigneur": "18"
+        },
+        "prerequis": "Sagesse +6",
+        "description": "Le guérisseur a voué sa vie à soigner mais se trouve parfois à devoir défendre sa vie : lorsqu'il utilise un sort non-offensif pour éviter de blesser son adversaire, il gagne un bonus de +5 au test de Volonté en opposition."
+    }, {
+        "nom": "Délivrance des Revenants",
+        "classes": {
+            "animiste": "21",
+            "soigneur": "21"
+        },
+        "prerequis": "Médecine 100, perception 100, Volonté +6",
+        "description": "Le soigneur manipule les forces de la vie, et peut les retourner contre les spectres et les revenants afin de leur apporter la fin de leurs souffrances : ses critiques de mêlée sont ajustés de dix et son bonus offensif est augmenté de vingt."
+    }, {
+        "nom": "Défense Lourde",
+        "classes": {
+            "barbare": "10",
+            "guerrier": "10",
+            "noble": "10"
+        },
+        "prerequis": "Force 95",
+        "description": "Les grandes armes à deux mains sont peu efficaces d'ordinaire pour parer, un utilisateur ne gagnant que la moitié effective de la parade consacrée (60% pour une épée à deux mains) ; avec ce talent, le combattant gagne 20% de parade supplémentaire par rapport à la quantité investie.",
+        "rang_superieur": "Le héros est un champion du combat à deux mains, et sait se servir de son arme aussi bien pour se défendre que pour attaquer, gagnant à nouveau 20% de parade supplémentaire effective.",
+        "prerequis_rang_superieur": "Force 100"
+    }, {
+        "nom": "Expert du Combat Défensif",
+        "classes": {
+            "assassin": "10",
+            "cambrioleur": "10",
+            "éclaireur": "10",
+            "guerrier": "10",
+            "larron": "10",
+            "noble": "10",
+            "rodeur": "10"
+        },
+        "prerequis": "Agilité 90, 5 degrés en combat deux armes",
+        "description": "Le héros a appris à se servir de sa seconde arme pour se protéger au cours du combat et parer les attaques adverses ; ainsi, en sus du bonus de dix pour une arme en position défensive (et d'un bonus éventuel de dix pour une arme de qualité équivalente ou supérieure à l'ithilnaur), il obtient un bonus de vingt à son bonus défensif.",
+        "rang_superieur": "Grand maître du combat défensif, le héros obtient un bonus total de quarante à sa défense avec son arme secondaire.",
+        "prerequis_rang_superieur": "15 degrés en combat deux armes"
+    }, {
+        "nom": "Maîtrise des Langues",
+        "classes": {
+            "maitre_du_savoir": "10",
+            "menestrel": "10"
+        },
+        "prerequis": "Intelligence 95",
+        "description": "La science linguistique du héros est telle que pour tout langage parfaitement maîtrisé (rang 5), il est capable d'apprendre avec facilité tout langage ou dialecte apparenté, gagnant le degré 3 avec un seul point dépensé."
+    }, {
+        "nom": "Science des Herbes Médicinales",
+        "classes": {
+            "animiste": "18",
+            "soigneur": "21"
+        },
+        "prerequis": "Connaissance des herbes 125, Herboristerie 80",
+        "description": "Le guérisseur est tellement expert dans la connaissance des plantes et onguents médicaux qu'il accroît de moitié la puissance de ces remèdes (plantes ou baumes)."
+    }, {
+        "nom": "Paroles Apaisantes",
+        "classes": {
+            "magicien": "21",
+            "menestrel": "21",
+            "moine": "21",
+            "noble": "21"
+        },
+        "prerequis": "Présence 98, Diplomatie 120",
+        "description": "Doué de tact, de maîtrise de soi et de diplomatie, le personnage est capable de de désamorcer les situations les plus tendues (entretien avec un ennemi séculier, vendetta, négociations houleuses au sujet de la vie d'un compagnon) ; il obtient de plus un bonus de +1 en Volonté ou en Sagesse (au choix). Ce talent est incompatible avec les antécédents suivants : fier, fureur guerrière, rigide."
+    }, {
+        "nom": "Inspiration Héroïque",
+        "classes": {
+            "noble": "21"
+        },
+        "prerequis": "Présence inspirante, Volonté +6",
+        "description": "Le héros guide ses compagnons dans l'accomplissements de leurs hauts faits et leur permet d'obtenir un bonus de +40 lorsqu'ils dépensent un point de courage dans une compétense ainsi qu'un bonus de +3 à tous leurs tests de Volonté , toujours dans un rayon de la prestance en mètres du noble. (Un personnage sous l'effet audacieux aura un bonus de +60 et celui sous héroïsme aura un bonus de +75)."
+    }, {
+        "nom": "Puissance des Sortilèges",
+        "classes": {
+            "magicien": "10",
+            "sorcier": "10"
+        },
+        "prerequis": "Constitution 95",
+        "description": "La force d'âme et la robustesse du conjureur rendent ses sortilèges offensifs plus puissants, puisant dans sa force intérieure pour accrôitre l'amplitude de son interaction avec l'essence ; il ajoute la valeur de son bonus de caractéristique Constitution à ses dégâts (sans prendre en compte le bonus racial)."
+    }, {
+        "nom": "Noble sauvage",
+        "classes": {
+            "animiste": "30",
+            "rodeur": "30"
+        },
+        "prerequis": "Puissance des familiers",
+        "description": "Une symbiose parfaite règne entre le forestier et son compagnon animal, chacun tirant sa force de l'autre ; le compagnon gagne cinq niveaux supplémentaires ainsi qu'un bonus de +/-5 aux critiques tandis que le héros gagne dix points de coup et un bonus de un entre au choix Rapidité et Vigueur."
+    }, {
+        "nom": "Vétéran Légendaire",
+        "classes": {
+            "barbare": "45",
+            "guerrier": "45",
+            "moine": "45"
+        },
+        "prerequis": "Spécialisation martiale",
+        "description": "Le niveau de maîtrise du héros dans le maniement de son arme favorite est devenu légendaire : il gagne quinze à son bonus offensif, obtient +3 à son initiative et réduit sa gamme de maladresse de un (minimum 01)."
+    }, {
+        "nom": "Poings d'Acier",
+        "classes": {
+            "moine": "21"
+        },
+        "prerequis": "Science des arts martiaux, 25 degrés en arts martiaux, Force 100",
+        "description": "Le moine frappe plus fort que ses comparses, délivrant trois quart des dégâts de la table des arts martiaux (contre la moitié en temps normal)."
+    }, {
+        "nom": "Coups Dévastateurs",
+        "classes": {
+            "barbare": "18",
+            "guerrier": "21",
+            "noble": "21"
+        },
+        "prerequis": "Coups puissants, Force 100",
+        "description": "Les attaques du personnage avec une arme à deux mains sont terribles : il gagne +/ - 5 à ses critiques avec une arme à deux mains."
+    }, {
+        "nom": "Coups Redoublés",
+        "classes": {
+            "assassin": "18",
+            "barbare": "15",
+            "guerrier": "15",
+            "larron": "18",
+            "noble": "15",
+            "rodeur": "21"
+        },
+        "prerequis": "Force 90",
+        "description": "Le héros est redoutable lorsqu'il manie une arme prévue à une main avec ses deux mains ; dans ce cas de figure, il gagne quinze à son bonus offensif, deux à son initiative et un modificateur de +/ - 5 à ses critiques (en sus des dommages majorés de moitié et d'un bonus de un à l'initiative communs à tous)."
+    }, {
+        "nom": "Appel d'Oromë",
+        "classes": {
+            "menestrel": "30"
+        },
+        "prerequis": "Chant de bataille",
+        "description": "Le chant du ménestrel inflige à intervalles réguliers (tous les trois rounds) des souffrances à toute créature maléfique à moins de prestance en mètres du lanceur. Cette attaque est considérée comme magique et occasionne des dommages égaux au bonus d'Intuition du lanceur (sans compter le bonus de race) ainsi qu'un critique sur la table des critiques d'Impact ou magiques, modifié par le score en Sagesse. Pour réussir son attaque, il doit effectuer un test sur sa Volonté de SD 15."
+    }, {
+        "nom": "Exorcisme",
+        "classes": {
+            "soigneur": "30"
+        },
+        "prerequis": "Délivrance des revenants, Volonté +8",
+        "description": "Armé d'un médaillon sacré (béni par un lieu ou un être puissant), le soigneur exprime la Volonté des Valars grâce à ses prières. Il effectue une attaque magique et s'il réussit un test de Volonté SD 15, il blesse toute créature mort - vivante située à moins de prestance en mètres du lanceur, lui infligeant des dégâts égaux à sa caractéristique Intuition (pas de bonus de race) et un critique sur la table des critiques de Chaleur ou magiques, modifié par son score en Sagesse."
+    }, {
+        "nom": "Mots de Pouvoir",
+        "classes": {
+            "magicien": "21",
+            "maitre_du_savoir": "21",
+            "soigneur": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Volonté +6",
+        "description": "Le personnage connaît les mots de pouvoir antiques, lui permettant de mieux se battre contre les orques et les trolls ; il obtient dix à ses bonus offensifs et défensifs contre ces deux races.",
+        "rang_superieur": "Le héros magnifie les mots de pouvoir et peut les utiliser contre toute race maléfique (balrog, dragon, mort - vivant, loup - garou, vampire et autres).",
+        "prerequis_rang_superieur": "Volonté +8, niv. 30"
+    }, {
+        "nom": "Création d'Artefacts",
+        "classes": {
+            "artisan": "40"
+        },
+        "prerequis": "Enchantement",
+        "description": "L'artisan est capable de créer des objets de puissance, pouvant imbiber ces derniers de deux pouvoirs dont un supérieur."
+    }, {
+        "nom": "Connaissance des Peuples",
+        "classes": {
+            "maitre_du_savoir": "18"
+        },
+        "prerequis": "Anthropologie 150",
+        "description": "L'étendue des connaissances du savant le rend capable de traiter de la meilleure manière qu'il soit avec les autres cultures, sa Sagesse lui permettant de manier la carotte et le bâton à bon escient ; il gagne un bonus de +15 en Diplomatie et Intimidation ainsi que un point en Sagesse."
+    }, {
+        "nom": "Sur le Fil",
+        "classes": {
+            "cambrioleur": "15"
+        },
+        "prerequis": "Comédie 100, Présence 90",
+        "description": "Les mimiques du roublard exaspèrent son adversaire et le déconcentrent, rendant ses attaques moins efficace ; toute personne unique combattant contre le scélérat a un malus de quinze contre lui à son bonus offensif."
+    }, {
+        "nom": "Précision Farouche",
+        "classes": {
+            "eclaireur": "30"
+        },
+        "prerequis": "Perception 150",
+        "description": "L'éclaireur a appris à se servir de son arc aussi bien qu'un forestier, obtenant de modifier ses critiques à l'arc de +/ - 10."
+    }, {
+        "nom": "Touche à Tout",
+        "classes": {
+            "artisan": "21"
+        },
+        "prerequis": "Milicien ou Homme sage et rusé",
+        "description": "L'artisan a essayé divers domaines de compétence et a accès au choix à l'un des talents suivants : savoir - faire, maîtrise du bouclier, science du combat et maître du savoir."
+    }, {
+        "nom": "Archer Légendaire",
+        "classes": {
+            "rodeur": "45"
+        },
+        "prerequis": "Spécialisation (arc), tir mortel",
+        "description": "Le rôdeur se sert de son arc tel le vaillant héros elfe des temps anciens, Beleg Cuthalion ; il ajoute dix à ses critiques à l'arc contre les grandes et très grandes créatures."
+    }, {
+        "nom": "Flèches Acérées",
+        "classes": {
+            "rodeur": "21"
+        },
+        "prerequis": "Savoir métaux 100, Flècherie 150",
+        "description": "Le rôdeur sait mieux que quiconque les types de flèches adaptées à ses besoins, il est donc capable de produire (avec un endroit et du matériel adaptés) des flèches aux pointes acérées infligeant des points de coups supplémentaires et des hémorragies profonde (cinq points de dommage et un points d'hémorragie par degré de critique, maximum vingt cinq et cinq)."
+    }, {
+        "nom": "Compagnon Farouche",
+        "classes": {
+            "animiste": "18",
+            "rodeur": "18"
+        },
+        "prerequis": "Puissance du familier",
+        "description": "Le compagnon et familier du personnage est beaucoup plus imposant que les autres membres de son espèce, il gagne trente points de coups supplémentaires (cinquante pour un ours)."
+    }, {
+        "nom": "Coups acharnés",
+        "classes": {
+            "larron": "21"
+        },
+        "prerequis": "20 degrés en arme, coups redoublés",
+        "description": "Lorsqu'il utilise une arme à une main avec ses deux mains, le héros est capable de terribles coups à la précision redoutable, et modifie ses critiques de +/ - 5."
+    }, {
+        "nom": "Résolution",
+        "classes": {
+            "eclaireur": "18"
+        },
+        "prerequis": "Volonté +4",
+        "description": "Au cours de ses missions, l'éclaireur a appris à ne rien laisser paraître de ses sentiments, il obtient donc un bonus de quatre dans ses tests de Volonté pour résister au sortilège Coeur Ouvert ou à l'antécédent Sens de l'Honneur."
+    }, {
+        "nom": "Voix Sirupeuse",
+        "classes": {
+            "assassin": "21",
+            "cambrioleur": "21"
+        },
+        "prerequis": "Présence 95, Cambrioleur lvl 18",
+        "description": "La voix du héros enjôle ses interlocuteurs et endort tous leurs doutes, il gagne un bonus de +25 à ses compétences Comédie et Séduction."
+    }, {
+        "nom": "Ombre Furtive",
+        "classes": {
+            "cambrioleur": "15"
+        },
+        "prerequis": "Agilité 95",
+        "description": "Aussi discret qu'une ombre, le héros gagne un bonus de quinze en Escalade et Filature/Dissimulation ainsi que un en Rapidité."
+    }, {
+        "nom": "Courage Intrépide",
+        "classes": {
+            "noble": "21"
+        },
+        "prerequis": "Volonté +6, Défenseur des peuples libres",
+        "description": "Sa Volonté et son courage font du noble un adversaire résolu et valeureux, il gagne quinze à son bonus offensif et deux à son initiative face à une créature maléfique."
+    }, {
+        "nom": "Tueur de Monstres",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21"
+        },
+        "prerequis": "Coups puissants, Force 100",
+        "description": "Les héros sont réputés pour leurs prouesses face aux créatures monstrueuses et légendaires ; ainsi, ils obtiennent un modificateur de dix à ses critiques de mêlée face à un représentant d'une catégorie de monstres (au choix parmi araignée, arbre maléfique, démon, dragon, géant, loup géant, mort - vivant et troll).",
+        "rang_superieur": "Le personnage est craint par ses ennemis pour sa faculté à porter des attaques mortelles, et gagne un modificateur total de vingt à ses critiques de mêlée.",
+        "prerequis_rang_superieur": "niv. 30"
+    }, {
+        "nom": "Force Vitale",
+        "classes": {
+            "animiste": "15",
+            "soigneur": "18"
+        },
+        "prerequis": "Volonté +5",
+        "description": "Fort de leurs croyances et de leurs capacités, les héros affrontent sans peur les créatures mort - vivantes, obtenant un modificateur de plus vingt à leur bonus défensif."
+    }, {
+        "nom": "Histoire Ancienne",
+        "classes": {
+            "magicien": "21",
+            "maitre_du_savoir": "15",
+            "menestrel": "18",
+            "sorcier": "21"
+        },
+        "prerequis": "Histoire 150",
+        "description": "Les connaissances historiques permettent au personnage d'évoluer avec facilité au contact des autres lors de négociations, et il obtient donc un bonus de quinze en Diplomatie et Anthropologie ainsi que plus un en Sagesse."
+    }, {
+        "nom": "Mythes et Créatures",
+        "classes": {
+            "magicien": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Histoire 200",
+        "description": "Etudiant les points faibles des ennemis de jadis, les conjureurs ont appris à lancer leurs sortilèges avec une redoutable efficacité, ajoutant dix à leurs critiques de sort contre les démons et dragons.",
+        "rang_superieur": "leurs connaissances inégalées permettent aux héros d'obtenir un bonus total de vingt à leurs critiques de sort contre les démons et dragons.",
+        "prerequis_rang_superieur": "Histoire 250"
+    }, {
+        "nom": "Grâce de Luthien",
+        "classes": {
+            "menestrel": "21"
+        },
+        "prerequis": "Héritage des bardes, Volonté +6, chant 200",
+        "description": "Le barde tisse son pouvoir par sa voix en rappelant les prouesses de Luthien Etoile du Matin, pouvant utiliser son sort Sommeil au même moment jusqu'à un nombre total de personnes égal à sa Prestance.",
+        "rang_superieur": "Sa voix douce et mélodieuse permet d'endormir un nombre de personne supplémentaire égal à sa Volonté.",
+        "prerequis_rang_superieur": "Volonté +8, Chant 250"
+    }, {
+        "nom": "Blessures non Profondes",
+        "classes": {
+            "cambrioleur": "21",
+            "eclaireur": "21"
+        },
+        "prerequis": "Rapidité +6",
+        "description": "Leur vivacité et leurs capacités d'esquives permettent souvent aux héros d'échapper à des blessures fatales ; en dépensant un point de courage, ils diminuent d'un degré la sévérité d'un critique encaissé et annule les critiques petits animaux."
+    }, {
+        "nom": "Bénédiction des Rois",
+        "classes": {
+            "noble": "21"
+        },
+        "prerequis": "Volonté +6, Homme noble",
+        "description": "Par son illustre lignage, le héros gagne un rang en Force et en Présence"
+    }, {
+        "nom": "Connaisseur des Lois",
+        "classes": {
+            "artisan": "10",
+            "maitre_du_savoir": "10",
+            "menestrel": "10",
+            "noble": "10"
+        },
+        "prerequis": "",
+        "description": "Le personnage exerce une position d'autorité parmi les siens, où son sens de la justice et de la médiation est reconnu ; il gagne un bonus de +15 en Diplomatie, Droit, Eloquence en Public ainsi que +1 en Sagesse."
+    }, {
+        "nom": "Autorité naturelle",
+        "classes": {
+            "magicien": "18",
+            "maitre_du_savoir": "18",
+            "noble": "21"
+        },
+        "prerequis": "150 en Commandement ou Diplomatie",
+        "description": "Habitué à négocier avec les puissants ou endurer les affronts, le héros affiche une autorité naturelle, gagnant un bonus de +3 à ses tests de Volonté pour lutter contre la peur ou la domination."
+    }, {
+        "nom": "Larmes des Anciens",
+        "classes": {
+            "menestrel": "15"
+        },
+        "prerequis": "Sagesse +5",
+        "description": "La compassion, la compréhension et l'empathie du personnage lui permettent de communiquer avec l'esprit d'un défunt non foncièrement maléfique, permettant à l'âme torturée de trouver le repos ; à chaque esprit libéré, le héros récupère un de ses points de courage dépensés et obtient un bonus de +15 à toutes ses compétences pendant la journée en cours. Pour libérer un esprit, le ménestrel doit réussir un test de Volonté SD 15."
+    }, {
+        "nom": "Estime des Rois",
+        "classes": {
+            "artisan": "18"
+        },
+        "prerequis": "Héritage familial, Compétence d'artisanat 120",
+        "description": "Le travail de qualité réalisé par les générations précédentes de la famille du héros ont attiré la bienveillance et la protection des puissants du royaume ; lorsqu'il agit dans l'intérêt supérieur du royaume et de sa population, le héros gagne un bonus de +40 lorsqu'il dépense un point de courage pour réaliser un test d'artisanat et gagne de plus un +1 en Volonté permanent."
+    }, {
+        "nom": "Réconfort",
+        "classes": {
+            "soigneur": "15"
+        },
+        "prerequis": "150 en Premiers Secours ou Médecine",
+        "description": "La seule Présence du guérisseur suffit à calmer la douleur et la panique de la population dans des moments difficiles : il gagne un bonus de +15 en Commandement, Diplomatie ainsi que +1 en Sagesse et Volonté."
+    }, {
+        "nom": "Héritage de Numenor",
+        "classes": {
+            "soigneur": "18"
+        },
+        "prerequis": "150 en Chirurgie",
+        "description": "Les connaissances du héros pour soigner ses semblabes sont impressionnantes et il gagne un bonus de +50 lorsqu'il dépense un point de courage pour un test de compétence médicale, et réalisant alors un critique sur 91 - 00."
+    }, {
+        "nom": "Combattant agile",
+        "classes": {
+            "larron": "15"
+        },
+        "prerequis": "15 degrés en arme, Agilité+4",
+        "description": "lorsqu'il est non armuré ou très peu (armure de type sans et cuir souple), le vaillant ruffian réalise des critiques sur 91 - 00, tandis que l'adversaire voit sa gamme d'échec augmenter de cinq points lorsqu'il tente de le blesser."
+    }, {
+        "nom": "Vigilance",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21",
+            "rodeur": "21"
+        },
+        "prerequis": "Forestier ou Perception du combat ou Survivant ou Maître d'armes",
+        "description": "le combattant est très attentif à ce qui l'entoure, ayant appris à observer son environnement pour agir le plus efficacement possible : il gagne un bonus de +25 en Perception et de +10 à son bonus défensif."
+    }, {
+        "nom": "Héros de Saga",
+        "classes": {
+            "noble": "45"
+        },
+        "prerequis": "Présence 100, Volonté+8, Vigueur+8, Inspiration héroique ou Dévotion",
+        "description": "l'aristocrate est la réincarnation symbolique des grands héros d'antan comme Elendil le Grand ou Gil-Galad de Lindon : son bonus professionnel de sa spécialité d'arme passe à +3 par niveau."
+    }, {
+        "nom": "Coups Fatals",
+        "classes": {
+            "assassin": "30",
+            "cambrioleur": "30",
+            "larron": "30"
+        },
+        "prerequis": "Anatomie",
+        "description": "les roublards sont capables de délivrer des attaques mortelles contre toutes les races humanoïdes, quelque soit leur taille (+/- 10 aux critiques, +10 au BO contre hommes)."
+    }, {
+        "nom": "Runes de Délivrance",
+        "classes": {
+            "animiste": "40"
+        },
+        "prerequis": "Intuition 100, Survie nature 150, Savoir en faune et flore 150",
+        "description": "le protecteur de la nature inscrit des runes de pouvoir sur son arme et gagne alors contre les créatures maléfiques un bonus de vingt cinq à son bonus offensif et un modificateur de +/-10 à ses critiques."
+    }, {
+        "nom": "Paroles de Puissance",
+        "classes": {
+            "magicien": "40"
+        },
+        "prerequis": "Présence 100, Volonté+8, Mots de pouvoir",
+        "description": "la voix du magicien est porteuse de terreur pour ses ennemis : il magnifie les effets du talent mots de pouvoir pour bénéficier d'un bonus total de +25 à ses bonus offensifs et défensifs contre les races ciblées."
+    }, {
+        "nom": "Race des Seigneurs",
+        "classes": {
+            "menestrel": "30"
+        },
+        "prerequis": "Volonté+8, Chant de Taliesin",
+        "description": "le barde est légendaire dans ses combats contre les créatures maléfiques lorqu'il entonne le Chant de Taliesin : désormais, il peut porter cinq attaques avec ce talent avant de perdre deux niveaux de fatigue, ses critiques étant modifiés de +/- 15."
+    }, {
+        "nom": "Espion",
+        "classes": {
+            "eclaireur": "21"
+        },
+        "prerequis": "Usurpation",
+        "description": "Le héros est parfaitement immiscé chez ses ennemis ; il gagne un bonus de +15 en anthropologie, comédie, héraldique, histoire. "
+    }, {
+        "nom": "Paroles de Protection",
+        "classes": {
+            "soigneur": "21"
+        },
+        "prerequis": "Volonté+6, mots de pouvoir",
+        "description": "la voix du guérisseur est protectrice, dupliquant les effets de mot de pouvoir, +25 à son bonus défensif, +10 au BD de ceux dans un rayon de sa prestance en mètres."
+    }, {
+        "nom": "Phalanges de Numenor",
+        "classes": {
+            "guerrier": "21",
+            "noble": "21"
+        },
+        "prerequis": "20 degrés en bouclier, Maîtrise des armures lourdes",
+        "description": "porteur de son armure lourde, de son bouclier et de son heaume, le héros est quasiment invincible aux coups reçus : il ajoute dix à son bonus défensif et annule un round d'étourdissement, réduisant de plus deux points de coups encaissés."
+    }, {
+        "nom": "Meute Sauvage",
+        "classes": {
+            "animiste": "21"
+        },
+        "prerequis": "Vigueur+4",
+        "description": "la vitalité animale coule dans le sang du druide : il obtient un bonus de +30 en athlétisme, +15 en escalade et natation ainsi que +1 en Vigueur. Il est également capable de courir sans discontinuer pendant un nombre d'heures égal à sa Vigueur."
+    }, {
+        "nom": "Ivresse de la Victoire",
+        "classes": {
+            "barbare": "21"
+        },
+        "prerequis": "20 degrés en arme, Science du combat",
+        "description": "Suite à un coup critique fatal entraînant la mort d'un ennemi, le héros gagne vingt à son bonus offensif sur son attaque suivante ainsi que dix de modificateur positif à son critique."
+    }, {
+        "nom": "Fureur de Dor-Lomin",
+        "classes": {
+            "guerrier": "21"
+        },
+        "prerequis": "25 degrés en arme, Spécialisation, Coups dévastateurs, Science du critique",
+        "description": "le héros manie son arme à deux mains tout comme Hurin pourfendant les trolls lors de la funeste bataille de Nirnaeth Arnoediad dans les Marais de Serech : il gagne un modificateur de dix à ses critiques contre les Grandes Créatures et de cinq contre les Très Grandes Créatures."
+    }, {
+        "nom": "Science des Istari",
+        "classes": {
+            "magicien": "21"
+        },
+        "prerequis": "Vigueur+5, Maîtrise du bâton (Rang supérieur : Vigueur+6)",
+        "description": "le bâton du magicien lui permet de détourner nombre d'attaques féroces : il ajoute vingt à son bonus défensif sur l'attaque parée avec le bâton.",
+        "rang_superieur": "bonus supplémentaire de vingt au bonus défensif, réduction d'un round d'étourdissement."
+    }, {
+        "nom": "Colère de Barahir",
+        "classes": {
+            "rodeur": "30"
+        },
+        "prerequis": "Volonté+6, Forestier",
+        "description": "le chasseur est un farouche et impitoyable tueur des créatures ennemis : il choisit une catégorie d'ennemis (morts-vivants, orques, ouargues ou trolls) contre laquelle il bénéficie d'une augmentation de vingt à son bonus offensif et de dix à ses ajustements de critique de mêlée(respectivement trente et quinze contre l'ennemi juré)."
+    }, {
+        "nom": "Danse du Combat",
+        "classes": {
+            "assassin": "21"
+        },
+        "prerequis": "Rapidité+5, Souplesse du serpent",
+        "description": "le héros danse parmi ses ennemis, esquivant les attaques avec un brio inégalé : la gamme d'échec de ses ennemis augmente de sept, leur maladresse de un."
+    }, {
+        "nom": "Adrénaline",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21"
+        },
+        "prerequis": "",
+        "description": "le bras du combattant est dévastateur lorsqu'il dépense un point de courage pour frapper son ennemi: le bonus est de +40 au lieu du +25 habituel (+60 si avantage Audacieux)."
+    }, {
+        "nom": "",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21"
+        },
+        "prerequis": "Constitution 95",
+        "description": "le héros est une force de la nature, il possède vingt cinq points de coup supplémentaires (cumulable avec le talent Résistance)."
+    }, {
+        "nom": "Tourbillon de Lames",
+        "classes": {
+            "assassin": "21",
+            "barbare": "21",
+            "guerrier": "21",
+            "larron": "21",
+            "rodeur": "21"
+        },
+        "prerequis": "",
+        "description": "muni de deux armes, le personnage peut porter deux attaques avec sa main principale et une avec sa main gauche (les trois attaques sont alors portées avec 40% du BO en relation avec l'arme, sauf pour les guerriers possédant le talent Guerrier-Né)."
+    }, {
+        "nom": "Gorge Exposée",
+        "classes": {
+            "assassin": "21",
+            "cambrioleur": "21",
+            "eclaireur": "21",
+            "larron": "21"
+        },
+        "prerequis": "",
+        "description": "le roublard gagne un bonus de +15 à ses attaques contre un ennemi auquel il a infligé un critique le round précédent (ou l'attaque précédente dans le même round)."
+    }, {
+        "nom": "Coup dans le Dos",
+        "classes": {
+            "assassin": "21",
+            "larron": "21"
+        },
+        "prerequis": "",
+        "description": "les ruffians sont des tueurs nés et obtiennent un bonus de +/- 10 à leurs critiques lorsqu'ils utilisent Mort Silencieuse."
+    }, {
+        "nom": "Grêle de flèches",
+        "classes": {
+            "rodeur": "21"
+        },
+        "prerequis": "5 degrés en tir éclair, Agilité 100",
+        "description": "rapidité d'exécution et précision sont les caractérisations de l'archer, ce dernier pouvant tirer jusqu'à trois flèches par round (les deux premières avec le bonus de tir éclair moins la pénalité de l'arc, la troisième avec le bonus des degrés de tir éclair)."
+    }, {
+        "nom": "Loyauté",
+        "classes": {
+            "magicien": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Familier",
+        "description": "le conjureur possède un lien empathique fort avec son familier et ressent certaines de ses émotions  : il gagne dix points de coup et aussi un bonus de +20 en perception, tout comme +1 en Sagesse."
+    }, {
+        "nom": "Diminution",
+        "classes": {
+            "magicien": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "",
+        "description": "la puissance des sortilèges de l'arcaniste font régresser les capacités de la cible : pour chaque éclair qui l'a atteint, la victime subit un malus de quinze à ses activités."
+    }, {
+        "nom": "Purification",
+        "classes": {
+            "animiste": "21",
+            "soigneur": "21"
+        },
+        "prerequis": "Sagesse+5, Volonté+5",
+        "description": "farouche défenseur du vivant, les critiques du héros sont considérés comme tueurs contre les morts-vivants lorsqu'il dépense un point de courage."
+    }, {
+        "nom": "Robustesse",
+        "classes": {
+            "barbare": "21",
+            "guerrier": "21",
+            "moine": "21",
+            "rodeur": "21"
+        },
+        "prerequis": "Constitution 95, Vigueur+6",
+        "description": "le héros possède une constitution hors du commun, et récupère beaucoup plus rapidement de ses blessures ; il ajoute trois à sa capacité de régénération quotidienne, et diminue le temps de convalescence d'un tiers pour toutes ses blessures."
+    }, {
+        "nom": "Linguiste",
+        "classes": {
+            "maitre_du_savoir": "21",
+            "menestrel": "21"
+        },
+        "prerequis": "Intelligence 95",
+        "description": "l'érudit maîtrise parfaitement l'apprentissage des langues, et gagne alors un langage supplémentaire pouvant être maîtrisé au rang 4 ou 5 ainsi que dix points de langages supplémentaires."
+    }, {
+        "nom": "Sens de la Justice",
+        "classes": {
+            "noble": "21"
+        },
+        "prerequis": "Intelligence 95, Intuition 98",
+        "description": "reconnu pour son sens aiguisé de la justice, le personnage est capable de déceler la vérité  : il gagne l'avantage Sens de l'Honneur ainsi qu'un point en Volonté."
+    }, {
+        "nom": "Maîtrise des Points Vitaux",
+        "classes": {
+            "moine": "21"
+        },
+        "prerequis": "Agilité 95, 10 degrés en arts martiaux, 5 degrés en défense adrénale",
+        "description": "le combattant sait percer la défense extraordinaire de son ennemi conférée par la défense adrénale et annule donc vingt cinq au bonus adverse de défense adrénale."
+    }, {
+        "nom": "Frappe Eclair",
+        "classes": {
+            "moine": "21"
+        },
+        "prerequis": "Agilité 98, 20 degrés en arts martiaux, Maîtrise des points vitaux",
+        "description": "le moine délivre des attaques ultra-rapides ; si son initiative est supérieure d'au moins dix, il annule vingt au bonus défensif de son adversaire conféré par son agilité ou sa défense adrénale."
+    }, {
+        "nom": "Lame Forgée",
+        "classes": {
+            "artisan": "21"
+        },
+        "prerequis": "10 degrés en arme",
+        "description": "le forgeron est particulièrement apte à se servir d'une arme qu'il a lui-même fabriquée ; il gagne le bénéfice de l'option d'historique Contrôle des Armes."
+    }, {
+        "nom": "Pierre runique",
+        "classes": {
+            "animiste": "21",
+            "magicien": "21",
+            "sorcier": "21"
+        },
+        "prerequis": "Volonté+6, Empathie animale ou Coeur de magicien",
+        "description": "le héros peut enchanter une gemme pour lui accorder un pouvoir de son choix, utilisable uniquement par lui ; un animiste utilisera une émeraude, le magicien un diamant et le sorcier un rubis pour obtenir au choix Défense (+10 BD), Rapidité (+3 initiative), Vigueur (+15 PdC) ou Ténacité (+1 Volonté)"
+    }, {
+        "nom": "Vitalité élémentaire",
+        "classes": {
+            "animiste": "21",
+            "barbare": "21",
+            "eclaireur": "21",
+            "rodeur": "21",
+            "soigneur": "21"
+        },
+        "prerequis": "Agilité 90, Constitution 90, Intuition 90, Vigueur+4",
+        "description": "la force de la nature coule dans le sang du personnage, lui octroyant un bonus de +15 en escalade, herboristerie, maîtrise des animaux et natation."
+    }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "nom": "elfe",
+        "label": "Elfe sylvain",
+        "bonusCarac": {
+            "agilite": 15,
+            "intuition": 5,
+            "presence": 5
+        },
+        "nbHisto": 3
+    },
+    {
+        "nom": "dunadan",
+        "label": "Dunadan / Corsaire",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 10,
+            "presence": 5
+        },
+        "nbHisto": 3
+    },
+    {
+        "nom": "numenoreen",
+        "label": "Numénoréen noir",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 10,
+            "presence": 5
+        },
+        "nbHisto": 3
+    },
+    {
+        "nom": "beornide",
+        "label": "Béornide",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 5,
+            "intuition": 5
+        },
+        "nbHisto": 4
+    },
+    {
+        "nom": "estarave",
+        "label": "Estaravé",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 10
+        },
+        "nbHisto": 4
+    },
+    {
+        "nom": "haruze",
+        "label": "Haruze",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 5
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "artedain",
+        "label": "Artedain",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 5
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "gondor",
+        "label": "Gondor",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 5
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "eothraim",
+        "label": "Eothraim",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 10
+        },
+        "nbHisto": 4
+    },
+    {
+        "nom": "womaw",
+        "label": "Womaw",
+        "bonusCarac": {
+            "force": 5,
+            "presence": 5
+        },
+        "nbHisto": 4
+    },
+    {
+        "nom": "variag",
+        "label": "Variag",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 5
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "lossoth",
+        "label": "Lossoth",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 10
+        },
+        "nbHisto": 4
+    },
+    {
+        "nom": "eradorien",
+        "label": "Eradorien",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 5
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "homme_des_bois",
+        "label": "Homme des bois",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 5
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "duneen",
+        "label": "Dunéen",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 5
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "homme_des_collines",
+        "label": "Homme des collines",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 5
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "mumakani",
+        "label": "Mumakani",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 10
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "hobbit",
+        "label": "Hobbit",
+        "bonusCarac": {
+            "force": -20,
+            "constitution": 15,
+            "presence": -5
+        },
+        "nbHisto": 5
+    },
+    {
+        "nom": "nain",
+        "label": "Nain",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 15,
+            "presence": -5
+        },
+        "nbHisto": 4
+    },
+    {
+        "nom": "umli",
+        "label": "Umli",
+        "bonusCarac": {
+            "force": 5,
+            "constitution": 10,
+            "presence": -5
+        },
+        "nbHisto": 4
+    }
+]

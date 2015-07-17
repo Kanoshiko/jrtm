@@ -1,0 +1,54 @@
+[
+    {
+        "nom": "animiste",
+        "label": "Animiste"
+    }, {
+        "nom": "artisan",
+        "label": "Artisan"
+    }, {
+        "nom": "assassin",
+        "label": "Assassin"
+    }, {
+        "nom": "cambrioleur",
+        "label": "Cambrioleur"
+    }, {
+        "nom": "barbare",
+        "label": "Barbare"
+    }, {
+        "nom": "eclaireur",
+        "label": "Eclaireur"
+    }, {
+        "nom": "guerrier",
+        "label": "Guerrier"
+    }, {
+        "nom": "larron",
+        "label": "Larron"
+    }, {
+        "nom": "magicien",
+        "label": "Magicien"
+    }, {
+        "nom": "menestrel",
+        "label": "Ménestrel"
+    }, {
+        "nom": "maitre_du_savoir",
+        "label": "Maître du savoir"
+    }, {
+        "nom": "moine",
+        "label": "Moine"
+    }, {
+        "nom": "noble",
+        "label": "Noble"
+    }, {
+        "nom": "pretre_militaire",
+        "label": "Prêtre militaire"
+    }, {
+        "nom": "rodeur",
+        "label": "Rôdeur"
+    }, {
+        "nom": "soigneur",
+        "label": "Soigneur"
+    }, {
+        "nom": "sorcier",
+        "label": "Sorcier"
+    }
+]

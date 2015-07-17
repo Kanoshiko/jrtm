@@ -1,0 +1,56 @@
+<h1 class="page-header">Compétences</h1>
+
+<table width="100%">
+    <tr>
+        <td>
+            <h2>Compétences principales</h2>
+            <div class="encadre"
+                 ng-repeat="cpt in listeCompetences | filter:isPrincipale"
+                 ng-click="addSelectedCompetence(cpt)">
+                {{cpt.nom}} : {{cpt[classe.nom]}}
+            </div>
+
+            <h3>Compétences secondaires</h3>
+
+            <h4>Bonus +3</h4>
+            <div class="encadre"
+                 ng-repeat="cpt in listeCompetences | filter:isBonus3 | orderBy: 'nom'"
+                 ng-click="addSelectedCompetence(cpt)">
+                {{cpt.nom}}
+            </div>
+
+            <h4>Bonus +2</h4>
+            <div class="encadre" ng-repeat="cpt in listeCompetences | filter:isBonus2 | orderBy: 'nom'"
+                 ng-click="addSelectedCompetence(cpt)">
+                {{cpt.nom}}
+            </div>
+
+            <h4>Bonus +1</h4>
+            <div class="encadre"
+                 ng-repeat="cpt in listeCompetences | filter:isBonus1 | orderBy: 'nom'"
+                 ng-click="addSelectedCompetence(cpt)">
+                {{cpt.nom}}
+            </div>
+
+            <h4>Sans bonus</h4>
+            <div class="encadre"
+                 ng-repeat="cpt in listeCompetences | filter:isBonus0 | orderBy: 'nom'"
+                 ng-click="addSelectedCompetence(cpt)">
+                {{cpt.nom}}
+            </div>
+        </td>
+
+        <td class="span1"></td>
+
+        <td class="tdTop">
+            <h2>Compétences sélectionées</h2>
+            <div class="competencesSelectionnees">
+                <div class="encadre"
+                     ng-repeat="cpt in competences | orderBy:sortOrdre"
+                     ng-click="removeSelectedCompetence(cpt)">
+                    {{cpt.nom}} : {{cpt[classe.nom]}}
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>

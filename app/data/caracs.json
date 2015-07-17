@@ -1,0 +1,26 @@
+{
+    "force": {
+        "nom": "force",
+        "label": "Force"
+    },
+    "agilite": {
+        "nom": "agilite",
+        "label": "Agilité"
+    },
+    "constitution": {
+        "nom": "constitution",
+        "label": "Constitution"
+    },
+    "intelligence": {
+        "nom": "intelligence",
+        "label": "Intelligence"
+    },
+    "intuition": {
+        "nom": "intuition",
+        "label": "Intuition"
+    },
+    "presence": {
+        "nom": "presence",
+        "label": "Présence"
+    }
+}

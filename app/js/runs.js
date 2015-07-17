@@ -18,6 +18,10 @@ angular.module('myApp.runs', [])
                     $rootScope.listeTalents = data;
                 });
 
+                $http.get('data/sortileges.json').success(function (data) {
+                    $rootScope.listeSortileges = data;
+                });
+
                 $http.get('data/competences.json').success(function (data) {
                     var ligne;
                     var colonne;

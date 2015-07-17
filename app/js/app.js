@@ -6,5 +6,6 @@ angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.directives', 
         config(['$routeProvider', function ($routeProvider) {
                 $routeProvider.when('/talents', {templateUrl: 'partials/talents.html', controller: 'CtrTalents'});
                 $routeProvider.when('/competences', {templateUrl: 'partials/competences.html', controller: 'CtrCompetences'});
+                $routeProvider.when('/sortileges', {templateUrl: 'partials/sortileges.html', controller: 'CtrSortileges'});
                 $routeProvider.otherwise({redirectTo: '/talents'});
             }]);

@@ -12,6 +12,9 @@ angular.module('myApp.controllers', []).
                 };
             }
         ])
+        .controller('CtrSortileges', ['$rootScope', '$scope', function ($rootScope, $scope) {
+            }
+        ])
         .controller('CtrCompetences', ['$rootScope', '$scope', function ($rootScope, $scope) {
 
                 $scope.isPrincipale = function (cpt) {

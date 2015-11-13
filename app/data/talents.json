@@ -2121,7 +2121,7 @@
     }, {
         "nom": "Grêle de flèches",
         "classes": {
-            "rodeur": "21"
+            "rodeur": "18"
         },
         "prerequis": "5 degrés en tir éclair, Agilité 100",
         "description": "rapidité d'exécution et précision sont les caractérisations de l'archer, ce dernier pouvant tirer jusqu'à trois flèches par round (les deux premières avec le bonus de tir éclair moins la pénalité de l'arc, la troisième avec le bonus des degrés de tir éclair)."

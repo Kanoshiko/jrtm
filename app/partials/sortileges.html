@@ -1,0 +1,55 @@
+<h1>Sortilèges</h1>
+
+<h4>Règle de lancé de sort</h4>
+
+<p>Lors de l'utilisation d'un sort, le jeteur doit avoir l'usage de la parole et la liberté de ses mouvements pour pouvoir pratiquer ses incantations (malus de trois cumulable pour la voix et/ou les gestes)</p>
+<p>
+    Test de magie = test de Vigueur<br/>
+    Prestance = (bonus de caractéristique Présence/5) + 7
+</p>
+<p>
+    réussite marginale = SD<br/>
+    réussite complète = SD+5<br/>
+    réussite supérieure = SD+10<br/>
+    réussite extraordinaire = SD+15
+</p>
+<p>Sorts élémentaires : niveau du lanceur pdc supplémentaires par tranche de réussite</p>
+<p>Spécialités magiques : Air et Tempête, Oiseaux et Animaux, Feu Fumée et Lumière, Eau, Feu, Secret (Magicien), Sorcellerie (Sorcier)</p>
+
+<h4>Règles spéciales au test de Vigueur</h4>
+
+<ul>
+    <li>malus de 3 pour tout sort actif (cumulable si plusieurs sorts actifs)</li>
+    <li>malus de 3 pour tout sort lancé au cours des dix derniers rounds (une minute) : ce malus est cumulable pour tout sort supplémentaire (ainsi au quatrième sort, le malus serait de neuf)</li>
+    <li>+3 SD pour augmenter de 25% l''effet d'un sort</li>
+    <li>+6 SD pour augmenter de 50% l'effet d'un sort</li>
+    <li>sorts combinés = SD le plus important + 3</li>
+</ul>
+
+<h4>Contresorts</h4>
+
+<p>test de Vigueur+Volonté en opposition entre les deux lanceurs avec un malus de dix pour tout sort non connu (­15 pour un sort de sorcellerie pour un magicien et un sort de feu secret pour un sorcier, ce malus est réduit de 5% de la compétence Savoir religieux, arrondi à l'entier naturel inférieur).</p>
+<p>Ex : Belengol, magicien elfe, possède un score de 136 en savoir religieux ; il peut donc tenter de dissiper un sortilège d'explosion de sorcellerie avec un malus de neuf au total ; il n'aura qu'un malus de quatre pour un sort inconnu n'appartenant pas au domaine de la sorcellerie.</p>
+
+<h4 class="page-header">Liste des sortilèges</h4>
+
+<ul>
+    <li ng-repeat="t in listeSortileges| orderBy:niveau">
+        <p>
+            <span class="badge"> niv. {{t.niveau}}</span>&nbsp;<b>{{t.nom}}</b><br/>
+            <u>Temps d'incantation</u> : {{t.temps_incantation}}&nbsp;&nbsp;
+            <u>Portée</u> : {{t.portee}}<br/>
+            <u>Durée</u> : {{t.duree}}&nbsp;&nbsp;
+            <u>Seuil de difficulté</u> : {{t.sd}}&nbsp;&nbsp;
+            <u>Coût</u> : {{t.cout}}<br/>
+            <span ng-show="t.condition">
+                <u>Condition</u> : {{t.condition}}&nbsp;&nbsp;
+            </span>
+            <u>Méthode</u> : {{t.methode}}&nbsp;&nbsp;
+            <u>Spécialité</u> : {{t.specialite}}<br/>
+            <u>Effet</u> : {{t.effet}}
+        </p>
+    </li>
+</ul>
+
+

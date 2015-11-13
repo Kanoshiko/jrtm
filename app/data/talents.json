@@ -2215,5 +2215,240 @@
         },
         "prerequis": "Agilité 90, Constitution 90, Intuition 90, Vigueur+4",
         "description": "la force de la nature coule dans le sang du personnage, lui octroyant un bonus de +15 en escalade, herboristerie, maîtrise des animaux et natation."
+    }, {
+        "nom": "Fleau des Orques",
+        "classes": {
+            "animiste": "21"
+        },
+        "prerequis": "10 degrés en arme, Survie nature 100",
+        "description": "le personnage hait les orques pour leur propension innée à souiller et détruire la nature ; il gagne un bonus de +15 à ses attaques de mêlée, +/- 5 à ses critiques et +2 à son initiative contre ces viles créatures."
+    }, {
+        "nom": "Vitalité des Elements",
+        "classes": {
+            "animiste": "35"
+        },
+        "prerequis": "Fureur de la nature",
+        "description": "la force des éléments coule dans le sang de l'animiste, qui diminue les attaques de magie et élémentaires de cinquante points de coup, et le temps accordé à Fureur de la Nature est augmenté de huit rounds."
+    }, {
+        "nom": "Bénédiction du Loup",
+        "classes": {
+            "animiste": "45"
+        },
+        "prerequis": "Instinct du druide",
+        "description": "le héros possède l'agilité des loups ainsi que leur grande résistance, signe de la bienveillance des esprits naturels encore présents sur la Terre du Milieu : il obtient +15 à son bonus défensif d'agilité, +2 à son initiative de mêlée et dix points de coup additionnels."
+    }, {
+        "nom": "Férocité des Beijabar",
+        "classes": {
+            "barbare": "30"
+        },
+        "prerequis": "Coups puissants, Forestier ou Survivant ou Vigilance",
+        "description": "incarnation de la fureur sauvage, le barbare montre une détermination sans faille : il obtient +1 en Volonté, quinze points de coups additionnels, et un modificateur de cinq à ses critiques contre les grandes/très grandes créatures en cas d'attaques critiques ; en sus, un barbare possédant le talent berserker voit la durée de celui-ci augmenter de deux rounds supplémentaires."
+    }, {
+        "nom": "Rage du Berserker",
+        "classes": {
+            "barbare": "45"
+        },
+        "prerequis": "Férocité des Beijabar",
+        "description": "combattant craint et réputé, le sauvage barbare domine le champ de bataille de sa puissance et de sa stature : il gagne +10 à son bonus offensif de son arme spécialisée, un modificateur de +/-5 à ses critiques ainsi que vingt points de coup additionnels. En outre, il augmente de deux rounds la durée du talent berserker."
+    }, {
+        "nom": "Bonne Réputation",
+        "classes": {
+            "artisan": "21"
+        },
+        "prerequis": "",
+        "description": "le personnage jouit d'une excellente renommée parmi sa communauté, connu pour son sens aigu de la négociation et son charisme : il obtient un bonus de +30 en diplomatie, +15 en éloquence public et +1 en Volonté"
+    }, {
+        "nom": "Equilibre de la Lame",
+        "classes": {
+            "artisan": "35"
+        },
+        "prerequis": "Maître-artisan",
+        "description": "l'artisan est capable de fabriquer des armes particulièrement adaptées à sa personne, connaissant mieux que quiconque les subtilités de l'arc ou de l'épée. Avec l'une de ses armes fabriquées, il est capable de réaliser des attaques critiques sur 91-00."
+    }, {
+        "nom": "Combattant Heroïque",
+        "classes": {
+            "artisan": "45"
+        },
+        "prerequis": "Milicien",
+        "description": "dans un monde plein de nombreux dangers, le héros s'est entraîné à manier son arme comme un véritable guerrier : il obtient un modificateur de 10 à son bonus offensif et de 2 à son initiative ; de plus, s'il manie une arme qu'il a lui même fabriqué, le score du bonus offensif est porté à 15 et il inflige des critiques modifiés de +/- 5."
+    }, {
+        "nom": "Croc de Vipère",
+        "classes": {
+            "assassin": "35"
+        },
+        "prerequis": "Manipulation des poisons 120, Savoir en herbes (poisons) 100",
+        "description": "l'assassin est une référence dans le domaine des poisons : à force de préparer et manipuler ces derniers, il est devenu expert de ces substances mais s'est également endurci à leur contact ; il obtient un bonus de +15 à ses compétences manipulation des poisons, savoir en herbes (poisons) ainsi que quinze points de coup additionnels et +1 en Vigueur."
+    }, {
+        "nom": "Tueur Né",
+        "classes": {
+            "assassin": "45"
+        },
+        "prerequis": "Anatomie, Chance des scélérats",
+        "description": "le personnage est un meurtrier redoutable avec ses armes, capable de porter des coups d'une précision chirurgicale : il obtient des critiques avec ses armes sur 86-00, gagne +2 en initiative, ainsi qu'un modificateur de +/-5 à ses critiques en cas d'attaques critiques."
+    }, {
+        "nom": "Polyvalence",
+        "classes": {
+            "cambrioleur": "35"
+        },
+        "prerequis": "Intelligence 90, Sagesse+5",
+        "description": "le roublard a appris diverses compétences variées au cours de sa carrière afin d'accomplir ses objectifs, certaines éloignées de son champ d'action habituel : il choisit deux compétences (hormis celles de combat et le développement corporel) où il augmente d'un rang son bonus par niveau (+0 devient +1, +1 devient +2, +2 devient +3 et un bonus de +30 pour la/les compétence(s) où le bonus professionnel était déjà de +3)."
+    }, {
+        "nom": "Sagacité du Voleur",
+        "classes": {
+            "cambrioleur": "45"
+        },
+        "prerequis": "Chance des scélérats",
+        "description": "aucune serrure ne peut arrêter notre héros, apte également à devenir invisible aux yeux extérieurs : il réalise des critiques sur 86-00 pour les compétences de subterfuge, gagne +2 en initiative et +10 à son bonus défensif."
+    }, {
+        "nom": "Vie Sauvage",
+        "classes": {
+            "eclaireur": "21",
+            "larron": "21"
+        },
+        "prerequis": "",
+        "description": "habitué à passer le plus clair de son temps dans les contrées sauvages, trouvant refuge en forêt ou dans une grotte, le héros a développé ses résistances physiques ; il obtient le gain de +1 en Vigueur et +25 en premiers soins, ainsi que vingt points de coup."
+    }, {
+        "nom": "Fantôme",
+        "classes": {
+            "eclaireur": "35"
+        },
+        "prerequis": "Forestier ou Survivant",
+        "description": "menant une vie solitaire en marge de la civilisation afin de surveiller les terres ennemies, le personnage a acquis une force de volonté impressionnante et des reflexes peu communs ; il gagne +1 en Rapidité et Sagesse ainsi que +15 en filature/dissimulation et survie nature, ainsi que +10 en perception."
+    }, {
+        "nom": "Protection des Faërië",
+        "classes": {
+            "eclaireur": "45"
+        },
+        "prerequis": "Bénédiction féerique",
+        "description": "une puissance mineure a veillé sur l'épanouissement du héros, lui accordant force et protection ; il augmente d'un rang deux de ses compétences physiques, diminue ses maladresses de un avec toutes les armes et gagne +25 dans une compétence physique de son choix (hors combat et points de coup)."
+    }, {
+        "nom": "Bouclier des Dunedain",
+        "classes": {
+            "guerrier": "30",
+            "noble": "30"
+        },
+        "prerequis": "Maîtrise du bouclier (rang2)",
+        "description": "la défense du personnage avec un bouclier est infranchissable, après des années à perfectionner sa maîtrise ; le BD de bouclier est augmenté de 10 et il annule 15 points de coup d'attaques physiques et 40 points de coup d'attaques magiques."
+    }, {
+        "nom": "Lame des Seigneurs Noldor",
+        "classes": {
+            "guerrier": "45"
+        },
+        "prerequis": "Maître d'arme",
+        "description": "le combattant est devenu aussi fameux l'arme à la main que les légendaires guerriers noldor des Jours Anciens tels Gwindor de Nargothrond ou Ecthelion de la Fontaine ; en sus d'un modificateur de +10 au BO de son arme spécialisée, il réalise désormais avec cette arme des critiques sur 91-00."
+    }, {
+        "nom": "Double Frappe",
+        "classes": {
+            "larron": "35"
+        },
+        "prerequis": "Science du combat à deux armes",
+        "description": "le héros s'est spécialisé dans le maniement de deux armes, avec une dextérité remarquable ; il gagne un modificateur de critique de +/-5 et +3 en initiative."
+    }, {
+        "nom": "Veilleur de Dorthonion",
+        "classes": {
+            "larron": "45"
+        },
+        "prerequis": "Survie nature 125",
+        "description": "le larron est devenu une sentinelle attentive aux coeurs des territoires sauvages devenant difficile à surprendre ; il gagne +25 en perception et filature/dissimulation ainsi que l'équivalent du talent Efficacité Accrue avec son arc ou arme de lancer."
+    }, {
+        "nom": "Sagesse du Compagnon",
+        "classes": {
+            "magicien": "30",
+            "sorcier": "30"
+        },
+        "prerequis": "Loyauté",
+        "description": "le familier du personnage n'est pas seulement un compagnon mais également une source de force intrinsèque partagée de manière symbiotique ; le lanceur de sorts gagne +1 en Sagesse et Volonté ainsi que +1 à tous ses jets de fatigue pour ses sortilèges."
+    }, {
+        "nom": "Vents d'Hithlum",
+        "classes": {
+            "magicien": "35"
+        },
+        "prerequis": "Sortilège : Maîtrise des Vents",
+        "description": "le magicien sait utiliser la puissance des vents pour accomplir ses objectifs mais désormais il peut s'en servir pour tenir à demeure ses ennemis et les repousser ; toutes les personnes situées dans un cercle au delà du magicien dans un rayon de sa prestance en mètre doivent réussir un test de Vigueur SD 12 (+3 par marge de réussite du magicien) : ceux qui échouent sont incapables d'avancer vers le magicien ou chutent au sol (échec complet) tandis que ceux qui réussissent ont un malus de quarante à leurs actions physiques."
+    }, {
+        "nom": "Eclat des Silmarils",
+        "classes": {
+            "magicien": "45",
+            "sorcier": "45"
+        },
+        "prerequis": "Pierre runique",
+        "description": "à force d'insufler la puissance de sa magie dans sa pierre runique, le conjureur voit celle-ci acquérir des pouvoirs extraordinaires ; son pouvoir de base a sa valeur triplée tandis qu'elle gagne un second pouvoir de base."
+    }, {
+        "nom": "Savoir de Gondolin",
+        "classes": {
+            "maitre_du_savoir": "35"
+        },
+        "prerequis": "Histoire 200",
+        "description": "le héros se sert des enseignements du passé pour appréhender les évènements actuels ; il gagne +2 en Sagesse et ses tests de Volonté contre la corruption/domination/peur sont augmentés de cinq."
+    }, {
+        "nom": "Lumière d'Elbereth",
+        "classes": {
+            "maitre_du_savoir": "45"
+        },
+        "prerequis": "Vertus des Valar",
+        "description": "l'érudit bénéficie de l'éclat des étoiles, une force donnée par l'appel à Elbereth, la Dame du Ciel et des Etoiles ; les créatures maléfiques répugnent à affronter l'éclat de ses yeux, lui octroyant +25 au bonus défensif, et le tranchant de sa lame brille d'une lueur froide délivrant des critiques C d'électricité contre les crétures maléfiques de taille moyenne (pour les grandes et très grandes créatures maléfiques, la lame occasionne dix points de dégâts)."
+    }, {
+        "nom": "Chant d'Ivrin",
+        "classes": {
+            "menestrel": "21"
+        },
+        "prerequis": "Volonté+5, Héritage des bardes",
+        "description": "le chant du barde est source de réconfort pour ceux qui sont meurtris dans leur âme et leur chair ; toutes les personnes proches dans un rayon de la prestance en mètre du héros récupèrent 1D4+1 points de coup, voient l'intensité de leurs douleurs diminuer (-10 aux pénalités)et gagnent un bonus de +1 à leurs tests de Volonté contre l'Ombre pour une durée d'une journée (ces effets ne peuvent être obtenus qu'une seule fois par série de blessures concomittantes)."
+    }, {
+        "nom": "Apaisement des Elfes",
+        "classes": {
+            "menestrel": "35"
+        },
+        "prerequis": "Déférence",
+        "description": "le charisme du personnage est si imposant qu'il séduit alliés comme ennemis, empêchant ces derniers d'accomplir des actions agressives ; le musicien gagne +25 en séduction et toute personne non-maléfique doit laisser s'éloigner le chantre et ses amis s'il rate un test de Volonté (test SD 20 pour une cible unique, SD 16 pour des cibles multiples, seuil abaissé de un pour chaque personne accompagnant le ménestrel)."
+    }, {
+        "nom": "Chant de Daeron",
+        "classes": {
+            "menestrel": "45"
+        },
+        "prerequis": "Chant de Taliesin",
+        "description": "le ménestrel connaît tous les chants retraçant les combats légendaires des héros d'antan ; en les entonnant, il gagne un bonus de +25 à son bonus défensif pour un nombre de minutes égale à sa prestance, diminue de un sa gamme de maladresse pendant cette période et allonge la durée du Chant de Taliesin d'un nombre de rounds égal à sa Vigueur."
+    }, {
+        "nom": "Morsure du Cobra",
+        "classes": {
+            "moine": "45"
+        },
+        "prerequis": "Griffe du dragon",
+        "description": "des années à perfectionner son corps et sa coordination permettent au moine d'être un maître des arts martiaux ; en sus d'un modificateur de +10 à ses bonus offensifs d'arts martiaux, il réussit ses critiques sur 91-00, infligeant cinq points de coup additionnels par attaque."
+    }, {
+        "nom": "Probité",
+        "classes": {
+            "noble": "45"
+        },
+        "prerequis": "Capitaine",
+        "description": "le seigneur n'a jamais renoncé à ses devoirs et obligations et son parcours au côté de son peuple est exemplaire ; il obtient un bonus de +1 dans trois réactions, ses critiques de mêlée étant modifiés de +/- 5."
+    }, {
+        "nom": "Arc de Doriath",
+        "classes": {
+            "rodeur": "45"
+        },
+        "prerequis": "Tir mortel ou Seigneur des forêts",
+        "description": "le forestier est devenu un archer extraordinaire, égalant presque les anciens défenseurs de Doriath comme Beleg Cuthalion ; son BO avec son arc spécialisé augmente de 15, il diminue sa gamme de maladresse de un et inflige des critiques à l'arc sur 91-00."
+    }, {
+        "nom": "Ami des Bêtes",
+        "classes": {
+            "soigneur": "35"
+        },
+        "prerequis": "Mots de pouvoir, Soins des animaux 125",
+        "description": "le guérisseur a su gagner l'amitié des bêtes sauvages par sa bonté et ses soins ; en sus d'un bonus de +25 en maîtrise des animaux, il reçoit le soutien d'un puissant membre d'une espèce (choix entre loup, aigle, panthère, sanglier et lynx, quatre niveau plus puissant qu'un animal normal) qui se met à son service."
+    }, {
+        "nom": "Guérison d'Estë",
+        "classes": {
+            "soigneur": "45"
+        },
+        "prerequis": "Bénédiction de Nienna",
+        "description": "les capacités de soins du héros sont miraculeuses ; outre une régénération quotidienne de ses points de coup augmentée de cinq, les soins apportés par ses sortilèges ou talents sont augmentés de dix ; il gagne également 10 à son bonus défensif."
+    }, {
+        "nom": "Maître-Nécromant",
+        "classes": {
+            "sorcier": "35"
+        },
+        "prerequis": "Nécromancie",
+        "description": "l'ensorceleur a poussé loin ses études de la nécromancie et peut désormais éveiller un terrible esprit des galgals qu'il peut lier à son service en sacrifiant un point de Vigueur (il récupère ce point six mois après la destruction de sa création) ; la créature possède dix niveaux de moins que son créateur."
     }
 ]
